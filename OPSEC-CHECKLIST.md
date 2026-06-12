@@ -1,8 +1,8 @@
-# ✅ Pre-Publish OPSEC Checklist
+# Pre-Publish OPSEC Checklist
 
 **Run through this checklist before every commit, LinkedIn post, or blog article.**
 
-Write as if your manager and the client's CISO are both subscribed to your feed.
+Assume that your manager and the client's CISO are both reading your public posts.
 
 ---
 
@@ -16,7 +16,7 @@ Write as if your manager and the client's CISO are both subscribed to your feed.
 - [ ] Would my **manager be uncomfortable** reading this post?
 - [ ] Would a **malicious actor gain useful information** from this post?
 
-> **If ANY answer is Yes → sanitize or remove before publishing.**
+> **If ANY answer is Yes — sanitize or remove before publishing.**
 
 ---
 
@@ -37,22 +37,22 @@ Write as if your manager and the client's CISO are both subscribed to your feed.
 - `[My Internship Organization]`
 - `my current internship`
 
-### Screenshots — Triple-Check
-1. Window titles & UI branding
+### Screenshots — Verify Before Publishing
+1. Window titles and UI branding
 2. IP addresses, hostnames, usernames in tool output
 3. Internal paths (`C:\CompanyName\...`, `/opt/companyname/...`)
-4. Blur or crop anything that fails
+4. Blur or crop anything that fails the above checks
 
 ---
 
-## The Golden Rule
+## The Core Principle
 
 > **Focus on the *generic technique*, not the *specific operational context.***
 >
-> ✅ "Analyzing TLS handshakes in Wireshark"
+> Correct: "Analyzing TLS handshakes in Wireshark"
 >
-> ❌ "Analyzing traffic between our customer portal and the payment gateway"
+> Incorrect: "Analyzing traffic between our customer portal and the payment gateway"
 
 ---
 
-*📌 Laminate this in your brain. One careless post can end an internship.*
+*Review this checklist before every publication. One careless post can end an internship.*

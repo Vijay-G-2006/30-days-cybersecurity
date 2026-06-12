@@ -1,98 +1,98 @@
-# 📝 Commands Cheatsheet
+# Commands Cheatsheet
 
-Quick-reference for commands you had to look up during the internship. Organized by domain. Future-you will thank you.
+Quick-reference for commands used during the internship. Organized by domain.
 
-> **Rule:** Only add commands you actually used and understood. This isn't a copy-paste dump — it's your personal reference.
+> **Guideline:** Only add commands that were actually used and understood. This is a personal reference, not a bulk dump.
 
 ---
 
-## 🔍 Network Analysis
+## Network Analysis
 
 ```bash
 # Wireshark / tshark
-# [Add commands as you use them]
+# [Add commands as used]
 ```
 
 ```bash
 # Nmap
-# [Add commands as you use them]
+# [Add commands as used]
 ```
 
 ```bash
 # tcpdump
-# [Add commands as you use them]
+# [Add commands as used]
 ```
 
 ---
 
-## 🐧 Linux Administration
+## Linux Administration
 
 ```bash
-# File permissions & ownership
-# [Add commands as you use them]
+# File permissions and ownership
+# [Add commands as used]
 ```
 
 ```bash
 # Process management
-# [Add commands as you use them]
+# [Add commands as used]
 ```
 
 ```bash
-# Logs & monitoring
-# [Add commands as you use them]
+# Logs and monitoring
+# [Add commands as used]
 ```
 
 ---
 
-## 🌐 Web Application Security
+## Web Application Security
 
 ```bash
 # curl / HTTP inspection
-# [Add commands as you use them]
+# [Add commands as used]
 ```
 
 ```bash
 # Burp Suite / OWASP ZAP
-# [Add commands as you use them]
+# [Add commands as used]
 ```
 
 ---
 
-## 🛡️ Defensive / Blue Team
+## Defensive / Blue Team
 
 ```bash
 # Firewall rules (iptables / ufw)
-# [Add commands as you use them]
+# [Add commands as used]
 ```
 
 ```bash
 # Log analysis
-# [Add commands as you use them]
+# [Add commands as used]
 ```
 
 ---
 
-## 🔓 Offensive / Red Team
+## Offensive / Red Team
 
 ```bash
 # Enumeration
-# [Add commands as you use them]
+# [Add commands as used]
 ```
 
 ```bash
 # Exploitation
-# [Add commands as you use them]
+# [Add commands as used]
 ```
 
 ---
 
-## 🔐 Cryptography & Certificates
+## Cryptography and Certificates
 
 ```bash
 # OpenSSL
-# [Add commands as you use them]
+# [Add commands as used]
 ```
 
 ---
 
-*📌 Add the Day # next to each command so you can cross-reference with your daily logs.*
+*Add the Day number next to each command for cross-referencing with daily logs.*

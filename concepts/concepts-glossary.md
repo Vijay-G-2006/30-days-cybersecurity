@@ -1,14 +1,14 @@
-# 📖 Concepts Glossary
+# Concepts Glossary
 
-Terms and concepts you had to define for yourself during the internship. This is your personal knowledge base — write definitions in your own words, not textbook copy-paste.
+Terms and concepts defined during the internship. Definitions should be written in own words, not copied from textbooks.
 
-> **Obsidian tip:** Each term here can be linked from your daily logs using `[[concepts-glossary#Term]]` for instant cross-referencing.
+> **Obsidian note:** Each term can be linked from daily logs using `[[concepts-glossary#Term]]` for cross-referencing.
 
 ---
 
 ## Glossary
 
-| # | Term | Domain | Definition (in your own words) | Day Learned |
+| # | Term | Domain | Definition (in own words) | Day Learned |
 |---|---|---|---|---|
 | 1 | — | — | — | Day — |
 | 2 | — | — | — | Day — |
@@ -18,27 +18,27 @@ Terms and concepts you had to define for yourself during the internship. This is
 
 ## Concepts by Domain
 
-### 🔍 Network Security
-- *Add concepts as you learn them*
+### Network Security
+- *Add concepts as encountered*
 
-### 🐧 Linux / Operating Systems
-- *Add concepts as you learn them*
+### Linux / Operating Systems
+- *Add concepts as encountered*
 
-### 🌐 Web Security
-- *Add concepts as you learn them*
+### Web Security
+- *Add concepts as encountered*
 
-### 🔐 Cryptography
-- *Add concepts as you learn them*
+### Cryptography
+- *Add concepts as encountered*
 
-### 🛡️ Defensive Security (Blue Team)
-- *Add concepts as you learn them*
+### Defensive Security (Blue Team)
+- *Add concepts as encountered*
 
-### 🔓 Offensive Security (Red Team)
-- *Add concepts as you learn them*
+### Offensive Security (Red Team)
+- *Add concepts as encountered*
 
-### 📜 Compliance & Governance
-- *Add concepts as you learn them*
+### Compliance and Governance
+- *Add concepts as encountered*
 
 ---
 
-*📌 Goal: By Day 30, this glossary should have 30+ terms — roughly one new concept per day.*
+*Target: 30+ terms by Day 30 — approximately one new concept per day.*

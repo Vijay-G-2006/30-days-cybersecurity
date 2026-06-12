@@ -1,6 +1,6 @@
-# 🔐 30 Days of Cybersecurity — Internship Log
+# 30 Days of Cybersecurity — Internship Log
 
-[![Daily Logs](https://img.shields.io/badge/Daily_Logs-20_Days-blue?style=for-the-badge)](#-daily-log-index)
+[![Daily Logs](https://img.shields.io/badge/Daily_Logs-20_Days-blue?style=for-the-badge)](#daily-log-index)
 [![Tools Used](https://img.shields.io/badge/Tools-Tracked-orange?style=for-the-badge)](tools-and-cheatsheets/tools-index.md)
 [![OPSEC](https://img.shields.io/badge/OPSEC-Sanitized-green?style=for-the-badge)](OPSEC-CHECKLIST.md)
 
@@ -8,22 +8,22 @@
 
 ---
 
-## 📌 About This Repository
+## About This Repository
 
-This is my **daily internship documentation repo** — a live, version-controlled journal of my journey through a cybersecurity internship. Every daily log, weekly summary, tool reference, and concept definition lives here.
+This is a **daily internship documentation repository** — a version-controlled journal of a cybersecurity internship. Every daily log, weekly summary, tool reference, and concept definition is maintained here.
 
-**Why public?** Because learning in public builds accountability, helps other students, and creates a portfolio artifact that speaks louder than a bullet point on a resume.
+**Purpose:** Building in public creates accountability, serves as a reference for other students, and produces a portfolio artifact with verifiable commit history.
 
-**What you'll find:**
-- 📓 **Daily logs** with technical walkthroughs, challenges, and solutions
-- 📊 **Weekly summaries** that synthesize patterns and insights
-- 🧰 **Tool index** and **commands cheatsheet** for quick reference
-- 📖 **Concepts glossary** with self-defined terms
-- 🔒 All content follows strict **OPSEC sanitization** — no real IPs, hostnames, or company names
+**Contents:**
+- **Daily logs** — Technical walkthroughs, challenges, and solutions
+- **Weekly summaries** — Synthesized patterns and insights
+- **Tool index** and **commands cheatsheet** — Quick reference
+- **Concepts glossary** — Self-defined terms
+- All content follows strict **OPSEC sanitization** — no real IPs, hostnames, or company names
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 ├── daily-logs/
@@ -33,10 +33,10 @@ This is my **daily internship documentation repo** — a live, version-controlle
 │   └── week-04/
 ├── weekly-summaries/     → Synthesized weekly reflections
 ├── tools-and-cheatsheets/
-│   ├── tools-index.md    → Every tool I used + descriptions
+│   ├── tools-index.md    → Every tool used + descriptions
 │   └── commands-cheatsheet.md → Commands worth remembering
 ├── concepts/
-│   └── concepts-glossary.md → Terms defined in my own words
+│   └── concepts-glossary.md → Terms defined in own words
 ├── assets/screenshots/   → Sanitized visuals
 ├── templates/            → Reusable daily log template
 └── OPSEC-CHECKLIST.md    → Pre-publish sanitization checklist
@@ -44,7 +44,7 @@ This is my **daily internship documentation repo** — a live, version-controlle
 
 ---
 
-## 📅 Daily Log Index
+## Daily Log Index
 
 ### Week 1 — Foundation
 | Day | Date | Topic | Log |
@@ -84,7 +84,7 @@ This is my **daily internship documentation repo** — a live, version-controlle
 
 ---
 
-## 📊 Weekly Summaries
+## Weekly Summaries
 
 | Week | Theme | Summary |
 |---|---|---|
@@ -95,15 +95,15 @@ This is my **daily internship documentation repo** — a live, version-controlle
 
 ---
 
-## 🧰 Quick Links
+## Quick Links
 
 | Resource | Description |
 |---|---|
-| [🧰 Tools Index](tools-and-cheatsheets/tools-index.md) | Every tool used, categorized with descriptions |
-| [📝 Commands Cheatsheet](tools-and-cheatsheets/commands-cheatsheet.md) | Commands worth remembering, organized by domain |
-| [📖 Concepts Glossary](concepts/concepts-glossary.md) | Terms defined in my own words |
-| [✅ OPSEC Checklist](OPSEC-CHECKLIST.md) | Pre-publish sanitization reference |
-| [📋 Daily Template](templates/daily-log-template.md) | Reusable log template |
+| [Tools Index](tools-and-cheatsheets/tools-index.md) | Every tool used, categorized with descriptions |
+| [Commands Cheatsheet](tools-and-cheatsheets/commands-cheatsheet.md) | Commands worth remembering, organized by domain |
+| [Concepts Glossary](concepts/concepts-glossary.md) | Terms defined in own words |
+| [OPSEC Checklist](OPSEC-CHECKLIST.md) | Pre-publish sanitization reference |
+| [Daily Template](templates/daily-log-template.md) | Reusable log template |
 
 ---
 
@@ -113,33 +113,33 @@ GRAND FINALE — Fill this in during Days 23-30
 =============================================================
 -->
 
-## 🏆 Grand Finale — 30 Days Inside a Cybersecurity Internship
+## Grand Finale — 30 Days Inside a Cybersecurity Internship
 
-> *What I Built, What I Broke, and What I'd Do Differently*
+> *What I Built, What I Broke, and What I Would Do Differently*
 
 <!-- Uncomment and fill in the sections below during the final week -->
 
 <!--
-### 📊 By the Numbers
+### By the Numbers
 - **X** daily logs published
 - **Y** tools actively used
 - **Z** challenges documented and resolved
 - **N** commits to this repository
 
-### 📅 Week-by-Week Breakdown
+### Week-by-Week Breakdown
 **Week 1 — Foundation:** [One paragraph]
 **Week 2 — Technical Depth:** [One paragraph]
 **Week 3 — Pattern Recognition:** [One paragraph]
 **Week 4 — Grand Finale:** [One paragraph]
 
-### 🧠 The 5 Most Important Things I Learned
+### The 5 Most Important Things I Learned
 1. [Insight, not a task]
 2. [Insight, not a task]
 3. [Insight, not a task]
 4. [Insight, not a task]
 5. [Insight, not a task]
 
-### 📈 Before vs. After: My Skill Map
+### Before vs. After: Skill Map
 | Skill Area | Before Internship | After Internship |
 |---|---|---|
 | Network Analysis | — | — |
@@ -148,13 +148,13 @@ GRAND FINALE — Fill this in during Days 23-30
 | Incident Response | — | — |
 | Security Mindset | — | — |
 
-### 😰 The Hardest Day
-[Tell the story of your worst day — counterintuitively your most compelling content]
+### The Hardest Day
+[Narrative of the most challenging day — counterintuitively the most compelling content]
 
-### 🔄 What I'd Do Differently If I Started Again
+### What I Would Do Differently
 [Demonstrates self-awareness and reflection]
 
-### 🚀 What's Next
+### What Is Next
 [Post-internship roadmap: certifications, projects, CTFs]
 -->
 
@@ -162,14 +162,14 @@ GRAND FINALE — Fill this in during Days 23-30
 
 ---
 
-## 🔗 Connect
+## Connect
 
 - **LinkedIn:** [G Vijay](https://www.linkedin.com/in/g-vijay)
 - **Hashnode:** [Your Blog](https://your-blog.hashnode.dev)
 
 ---
 
-## 📜 License
+## License
 
 This repository is shared for educational purposes. All content is sanitized following strict OPSEC guidelines — no real company names, IP addresses, hostnames, or vulnerability details are included.
 

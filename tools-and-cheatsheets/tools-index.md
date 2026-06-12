@@ -1,8 +1,8 @@
-# 🧰 Tools Index
+# Tools Index
 
 A running inventory of every tool encountered during the internship, organized by category.
 
-> **How to use:** Add a new row each time you use a tool for the first time. Keep descriptions to one sentence — think "future-you skimming this in 6 months."
+> **Usage:** Add a new row each time a tool is used for the first time. Keep descriptions to one sentence.
 
 ---
 
@@ -18,27 +18,27 @@ A running inventory of every tool encountered during the internship, organized b
 
 ## By Category
 
-### 🔍 Network Analysis
+### Network Analysis
 | Tool | Purpose | Key Command |
 |---|---|---|
 | — | — | `—` |
 
-### 🐧 Linux / System
+### Linux / System
 | Tool | Purpose | Key Command |
 |---|---|---|
 | — | — | `—` |
 
-### 🌐 Web Application Security
+### Web Application Security
 | Tool | Purpose | Key Command |
 |---|---|---|
 | — | — | `—` |
 
-### 🛡️ Defensive / Monitoring
+### Defensive / Monitoring
 | Tool | Purpose | Key Command |
 |---|---|---|
 | — | — | `—` |
 
-### 🔓 Offensive / Pentesting
+### Offensive / Pentesting
 | Tool | Purpose | Key Command |
 |---|---|---|
 | — | — | `—` |

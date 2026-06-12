@@ -8,16 +8,16 @@ tags: [internship, cybersecurity, TAG1, TAG2]
 ---
 
 # Day D — [Sanitized Task Title]
-> *One punchy sentence summarizing today in plain English.*
+> *One-sentence summary of the day.*
 
 ---
 
-## 🎯 Today's Objective
-What were you *supposed* to accomplish today? One or two sentences.
+## Today's Objective
+What was the intended accomplishment for the day. One or two sentences.
 
 ---
 
-## 🛠️ Environment & Tools
+## Environment and Tools
 
 | Tool / Tech | Version | Purpose |
 |---|---|---|
@@ -27,46 +27,46 @@ What were you *supposed* to accomplish today? One or two sentences.
 
 ---
 
-## 📋 Technical Log
-*Narrate what you actually did, step by step. Write for a junior who's never done this task.
+## Technical Log
+*Step-by-step narration of the work performed. Written for a reader unfamiliar with this task.
 Use `inline code` for commands, tool names, and file paths. Use code blocks for longer snippets.*
 
 **Step 1 — [Sub-task name]**
-What you did, what you observed. Be specific about *why* you did each step, not just *what*.
+Actions taken and observations. Be specific about *why* each step was performed, not just *what* was done.
 
 **Step 2 — [Sub-task name]**
 Continue the narrative.
 
 ```bash
-# Any commands you ran (sanitized — no real IPs, hostnames, or credentials)
+# Commands executed (sanitized — no real IPs, hostnames, or credentials)
 command --example 192.0.2.1
 ```
 
 ---
 
-## 🧱 Challenge Encountered
-*Describe the specific obstacle. Error message, unexpected behavior, conceptual gap — be precise.
-The more specific this is, the more valuable it becomes for other learners.*
+## Challenge Encountered
+*Describe the specific obstacle: error message, unexpected behavior, or conceptual gap.
+Precision here increases the value of this log for other learners.*
 
 > **Error / Obstacle:** [e.g., `Permission denied` when running tcpdump without sudo]
 
-**Why it happened:** [Your understanding of the root cause]
+**Root cause:** [Analysis of why this occurred]
 
 ---
 
-## ✅ How I Solved It
-Step-by-step resolution. This section is the most valuable for educational readers.
+## Resolution
+Step-by-step resolution. This section carries the highest educational value.
 
-1. First, I tried...
-2. That didn't work because...
-3. The actual fix was...
+1. First attempt: ...
+2. Why it failed: ...
+3. Successful resolution: ...
 
-> **Key realization:** [The "aha" moment in one sentence]
+> **Key realization:** [The critical insight in one sentence]
 
 ---
 
-## 💡 Key Takeaways
-*Three things you'd tell yourself before starting today's task.*
+## Key Takeaways
+*Three points to communicate to someone starting this task.*
 
 - **[Concept 1]:** [One sentence explanation]
 - **[Concept 2]:** [One sentence explanation]
@@ -74,16 +74,16 @@ Step-by-step resolution. This section is the most valuable for educational reade
 
 ---
 
-## 🔗 Resources That Helped
-- [Resource Title](URL) — *One sentence on why it was useful*
+## Resources
+- [Resource Title](URL) — *Why it was useful*
 - [Documentation Page](URL)
 
 ---
 
-## ⏭️ Tomorrow's Planned Focus
-One sentence on what you're tackling next.
+## Next Day's Planned Focus
+One sentence on the next task to address.
 
 ---
 
-*📌 Internship Log | Week W · Day D | [General Domain, e.g., Network Security]*
+*Internship Log | Week W, Day D | [General Domain, e.g., Network Security]*
 *Tags: #CyberSecurity #Internship #LearnInPublic*
