@@ -164,9 +164,8 @@ GRAND FINALE — Fill this in during Days 23-30
 
 ## 🔗 Connect
 
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- **LinkedIn:** [G Vijay](https://www.linkedin.com/in/g-vijay)
 - **Hashnode:** [Your Blog](https://your-blog.hashnode.dev)
-- **Twitter/X:** [@your-handle](https://twitter.com/your-handle)
 
 ---
 
