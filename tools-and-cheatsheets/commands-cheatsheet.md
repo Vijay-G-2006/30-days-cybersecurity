@@ -143,11 +143,18 @@ sudo !!                     # Execute the previous command with sudo
 
 ---
 
-## Cryptography and Certificates
+## Cryptography and Password Recovery
 
 ```bash
-# OpenSSL
-# [Add commands as used]
+# Hash generation and identification (Day 05)
+echo -n "hello" | md5sum    # Generate MD5 hash of a string (-n prevents trailing newline)
+hashid <hash>               # Identify likely algorithms for an unknown hash
+hash-identifier             # Interactive tool for identifying unknown hashes
+
+# Hashcat — Password recovery (Day 05)
+hashcat -m 0 -a 3 <hash> ?a?a?a?a?a  # Mask attack against an MD5 hash (5 chars)
+hashcat -m 0 -a 0 <hashes.txt> <wordlist.txt> # Dictionary attack using a wordlist
+hashcat -m 0 --show <hash>           # Show already cracked hash from potfile
 ```
 
 ---

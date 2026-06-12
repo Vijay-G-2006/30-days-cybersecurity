@@ -30,6 +30,10 @@ A running inventory of every tool encountered during the internship, organized b
 | 18 | su | Linux / System | Day 04 | Command to run a shell with substitute user and group IDs |
 | 19 | head | Linux / System | Day 04 | Output the first part of files |
 | 20 | tail | Linux / System | Day 04 | Output the last part of files |
+| 21 | md5sum | Cryptography | Day 05 | Compute and check MD5 message digests |
+| 22 | hashid | Cryptography | Day 05 | Python script to identify the different types of hashes |
+| 23 | hash-identifier | Cryptography | Day 05 | Software to identify the different types of hashes used to encrypt data |
+| 24 | hashcat | Cryptography | Day 05 | Advanced password recovery utility supporting multiple attack modes |
 
 ---
 
@@ -67,6 +71,14 @@ A running inventory of every tool encountered during the internship, organized b
 | Tool | Purpose | Key Command |
 |---|---|---|
 | — | — | `—` |
+
+### Cryptography & Password Recovery
+| Tool | Purpose | Key Command |
+|---|---|---|
+| md5sum | Hash generation | `echo -n "string" | md5sum` |
+| hashid | Hash identification | `hashid <hash>` |
+| hash-identifier | Hash identification | `hash-identifier` |
+| hashcat | Password recovery | `hashcat -m 0 -a 3 <hash> ?a?a?a?a?a` |
 
 ### Defensive / Monitoring
 | Tool | Purpose | Key Command |

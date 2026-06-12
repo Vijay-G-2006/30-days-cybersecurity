@@ -30,6 +30,10 @@ Terms and concepts defined during the internship. Definitions should be written 
 | 18 | UID / GID | Linux / Operating Systems | User Identifier and Group Identifier. The numerical values Linux actually uses to track identity and permissions. UIDs under 1000 are reserved for system and service accounts, while 1000+ are for human users. | Day 04 |
 | 19 | /usr/local/bin | Linux / Operating Systems | The standard directory for locally compiled binaries and custom administrative scripts. Placing scripts here allows them to be executed as system commands without conflicting with package-managed software in /usr/bin. | Day 04 |
 | 20 | History Expansion (!!) | Linux / Operating Systems | A bash shell feature that substitutes the last executed command into the current prompt. Extremely useful for re-running a command that failed due to missing privileges (e.g., `sudo !!`). | Day 04 |
+| 21 | Cryptographic Hashing | Cryptography | A one-way deterministic mathematical function that takes an input of any size and produces a fixed-size output. Used for password storage and file integrity. | Day 05 |
+| 22 | Collision Resistance | Cryptography | A property of secure hash functions where it is computationally infeasible to find two different inputs that produce the same hash output. | Day 05 |
+| 23 | Mask Attack (Hashcat -a 3) | Cryptography | A highly optimized password cracking technique where candidates are generated based on a known or assumed pattern (e.g., lowercase followed by 4 digits), vastly reducing the keyspace compared to blind brute-forcing. | Day 05 |
+| 24 | Dictionary Attack (Hashcat -a 0) | Cryptography | A password cracking technique that hashes every word in a provided wordlist (like rockyou.txt) and compares the output against the target hashes. | Day 05 |
 
 ---
 
@@ -63,7 +67,10 @@ Terms and concepts defined during the internship. Definitions should be written 
 - *Add concepts as encountered*
 
 ### Cryptography
-- *Add concepts as encountered*
+- **Cryptographic Hashing** — One-way deterministic function for generating fixed-size digests (Day 05)
+- **Collision Resistance** — The difficulty of finding two inputs that produce the same hash (Day 05)
+- **Mask Attack (-a 3)** — Optimized brute-force attack using character pattern masks (Day 05)
+- **Dictionary Attack (-a 0)** — Password recovery using a predefined list of words (Day 05)
 
 ### Defensive Security (Blue Team)
 - *Add concepts as encountered*

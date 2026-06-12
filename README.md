@@ -53,7 +53,7 @@ This is a **daily internship documentation repository** — a version-controlled
 | Day 02 | 2026-06-09 | Linux Filesystem Hierarchy, Directory Structure | [Log](daily-logs/week-01/day-02_2026-06-09.md) |
 | Day 03 | 2026-06-10 | Network Scanning with Nmap and Packet-Level Analysis with Wireshark | [Log](daily-logs/week-01/day-03_2026-06-10.md) |
 | Day 04 | 2026-06-11 | User and Group Management, Automation, and Bash Efficiency | [Log](daily-logs/week-01/day-04_2026-06-11.md) |
-| Day 05 | — | — | *Coming soon* |
+| Day 05 | 2026-06-12 | Cryptographic Hashing and Password Cracking with Hashcat | [Log](daily-logs/week-01/day-05_2026-06-12.md) |
 | Day 06 | — | — | *Coming soon* |
 
 ### Week 2 — Technical Depth
