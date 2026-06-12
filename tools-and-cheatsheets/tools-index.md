@@ -20,6 +20,8 @@ A running inventory of every tool encountered during the internship, organized b
 | 8 | stat | Linux / System | Day 02 | Displays detailed file metadata including permissions, timestamps, and inode |
 | 9 | find | Linux / System | Day 02 | Searches the filesystem by name, type, size, permissions, or modification time |
 | 10 | cat | Linux / System | Day 02 | Concatenates and displays file contents to standard output |
+| 11 | Nmap | Network Analysis | Day 03 | Network discovery and security auditing utility |
+| 12 | Wireshark | Network Analysis | Day 03 | Network protocol analyzer for packet capture and inspection |
 
 ---
 
@@ -32,6 +34,8 @@ A running inventory of every tool encountered during the internship, organized b
 | ss | Active connections and listening ports | `ss -tuln` |
 | ping | Network reachability testing | `ping -c 4 <target>` |
 | curl | HTTP request and header inspection | `curl -I <url>` |
+| Nmap | Network discovery and port scanning | `nmap -sV -sC <target>` |
+| Wireshark | Packet capture and analysis | `wireshark` |
 
 ### Linux / System
 | Tool | Purpose | Key Command |

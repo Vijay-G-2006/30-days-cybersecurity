@@ -25,8 +25,16 @@ curl -I https://example.com # Fetch HTTP response headers only
 ```
 
 ```bash
-# Nmap
-# [Add commands as used]
+# Nmap — Network scanning and discovery (Day 03)
+nmap 192.0.2.1               # Basic TCP scan (top 1000 ports)
+nmap -p 22,80,443 192.0.2.1  # Scan specific ports
+nmap -p- 192.0.2.1           # Scan all 65,535 ports
+sudo nmap -sS 192.0.2.1      # SYN scan (half-open, stealthier, requires root)
+nmap -sT 192.0.2.1           # TCP Connect scan (full handshake)
+sudo nmap -sU 192.0.2.1      # UDP scan (requires root)
+nmap -sV 192.0.2.1           # Service version detection
+nmap -sC 192.0.2.1           # Run default NSE scripts
+sudo nmap -A 192.0.2.1       # Aggressive scan (OS, version, scripts, traceroute)
 ```
 
 ```bash

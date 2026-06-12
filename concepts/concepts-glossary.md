@@ -23,6 +23,10 @@ Terms and concepts defined during the internship. Definitions should be written 
 | 11 | /proc (Virtual Filesystem) | Linux / Operating Systems | A kernel-generated virtual filesystem that exposes real-time process information and system statistics as readable files. Does not exist on disk; each running process gets a numbered directory under /proc. | Day 02 |
 | 12 | /dev (Device Files) | Linux / Operating Systems | A directory of special files representing hardware devices and virtual interfaces. Linux treats devices as files, enabling standard read/write operations on hardware. Includes /dev/null, /dev/urandom, and disk device nodes. | Day 02 |
 | 13 | Sticky Bit | Linux / Operating Systems | A special permission flag (represented as 't' in the permission string) applied to directories like /tmp. It prevents users from deleting files they do not own, even in world-writable directories. | Day 02 |
+| 14 | SYN Scan (-sS) | Network Security | A "half-open" TCP scan that sends a SYN packet and waits for a SYN-ACK, but resets (RST) the connection before completing the three-way handshake. Faster and stealthier than a full connect scan. | Day 03 |
+| 15 | TCP Connect Scan (-sT) | Network Security | A port scan that completes the full TCP three-way handshake. Slower and more easily logged by target systems, but does not require raw socket access (root privileges). | Day 03 |
+| 16 | UDP Scan (-sU) | Network Security | A scan targeting connectionless UDP ports. Relies on ICMP Port Unreachable messages to determine if a port is closed, making it generally slower and less definitive than TCP scanning. | Day 03 |
+| 17 | Nmap Scripting Engine (NSE) | Network Security | A feature of Nmap that allows users to write and execute Lua scripts for advanced network discovery, vulnerability detection, and exploitation during a scan. | Day 03 |
 
 ---
 
@@ -36,6 +40,10 @@ Terms and concepts defined during the internship. Definitions should be written 
 - **Private IP Address** — Non-routable internal network address per RFC 1918 (Day 01)
 - **NAT** — Private-to-public IP translation at the router level (Day 01)
 - **Loopback Address** — 127.0.0.1, self-referencing local address (Day 01)
+- **SYN Scan (-sS)** — Half-open TCP port scanning technique (Day 03)
+- **TCP Connect Scan (-sT)** — Full-handshake TCP port scanning technique (Day 03)
+- **UDP Scan (-sU)** — Connectionless port scanning technique (Day 03)
+- **Nmap Scripting Engine (NSE)** — Lua-based script execution framework for Nmap (Day 03)
 
 ### Linux / Operating Systems
 - **File Permissions** — Octal-based access control for files and directories (Day 01)
