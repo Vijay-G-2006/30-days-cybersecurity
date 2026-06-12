@@ -34,6 +34,7 @@ Terms and concepts defined during the internship. Definitions should be written 
 | 22 | Collision Resistance | Cryptography | A property of secure hash functions where it is computationally infeasible to find two different inputs that produce the same hash output. | Day 05 |
 | 23 | Mask Attack (Hashcat -a 3) | Cryptography | A highly optimized password cracking technique where candidates are generated based on a known or assumed pattern (e.g., lowercase followed by 4 digits), vastly reducing the keyspace compared to blind brute-forcing. | Day 05 |
 | 24 | Dictionary Attack (Hashcat -a 0) | Cryptography | A password cracking technique that hashes every word in a provided wordlist (like rockyou.txt) and compares the output against the target hashes. | Day 05 |
+| 25 | Combinator Attack (Hashcat -a 1) | Cryptography | A password cracking technique that combines words from two different dictionaries by appending each word from the second list to each word in the first list. | Day 05 |
 
 ---
 
@@ -71,6 +72,7 @@ Terms and concepts defined during the internship. Definitions should be written 
 - **Collision Resistance** — The difficulty of finding two inputs that produce the same hash (Day 05)
 - **Mask Attack (-a 3)** — Optimized brute-force attack using character pattern masks (Day 05)
 - **Dictionary Attack (-a 0)** — Password recovery using a predefined list of words (Day 05)
+- **Combinator Attack (-a 1)** — Password recovery combining words from two dictionaries (Day 05)
 
 ### Defensive Security (Blue Team)
 - *Add concepts as encountered*

@@ -154,6 +154,7 @@ hash-identifier             # Interactive tool for identifying unknown hashes
 # Hashcat — Password recovery (Day 05)
 hashcat -m 0 -a 3 <hash> ?a?a?a?a?a  # Mask attack against an MD5 hash (5 chars)
 hashcat -m 0 -a 0 <hashes.txt> <wordlist.txt> # Dictionary attack using a wordlist
+hashcat -m 0 -a 1 <hashes.txt> dict1.txt dict2.txt # Combinator attack
 hashcat -m 0 --show <hash>           # Show already cracked hash from potfile
 ```
 
