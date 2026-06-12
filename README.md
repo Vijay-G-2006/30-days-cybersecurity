@@ -49,7 +49,7 @@ This is a **daily internship documentation repository** — a version-controlled
 ### Week 1 — Foundation
 | Day | Date | Topic | Log |
 |---|---|---|---|
-| Day 01 | — | — | *Coming soon* |
+| Day 01 | 2026-06-08 | Linux Fundamentals, TCP/IP Model, IP Addresses | [Log](daily-logs/week-01/day-01_2026-06-08.md) |
 | Day 02 | — | — | *Coming soon* |
 | Day 03 | — | — | *Coming soon* |
 | Day 04 | — | — | *Coming soon* |
