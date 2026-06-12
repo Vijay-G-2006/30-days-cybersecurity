@@ -1,0 +1,181 @@
+# 🔐 30 Days of Cybersecurity — Internship Log
+
+[![Daily Logs](https://img.shields.io/badge/Daily_Logs-20_Days-blue?style=for-the-badge)](#-daily-log-index)
+[![Tools Used](https://img.shields.io/badge/Tools-Tracked-orange?style=for-the-badge)](tools-and-cheatsheets/tools-index.md)
+[![OPSEC](https://img.shields.io/badge/OPSEC-Sanitized-green?style=for-the-badge)](OPSEC-CHECKLIST.md)
+
+> **A structured, public record of everything I learned during my cybersecurity internship — one day at a time.**
+
+---
+
+## 📌 About This Repository
+
+This is my **daily internship documentation repo** — a live, version-controlled journal of my journey through a cybersecurity internship. Every daily log, weekly summary, tool reference, and concept definition lives here.
+
+**Why public?** Because learning in public builds accountability, helps other students, and creates a portfolio artifact that speaks louder than a bullet point on a resume.
+
+**What you'll find:**
+- 📓 **Daily logs** with technical walkthroughs, challenges, and solutions
+- 📊 **Weekly summaries** that synthesize patterns and insights
+- 🧰 **Tool index** and **commands cheatsheet** for quick reference
+- 📖 **Concepts glossary** with self-defined terms
+- 🔒 All content follows strict **OPSEC sanitization** — no real IPs, hostnames, or company names
+
+---
+
+## 🗂️ Repository Structure
+
+```
+├── daily-logs/
+│   ├── week-01/          → Day-by-day technical logs
+│   ├── week-02/
+│   ├── week-03/
+│   └── week-04/
+├── weekly-summaries/     → Synthesized weekly reflections
+├── tools-and-cheatsheets/
+│   ├── tools-index.md    → Every tool I used + descriptions
+│   └── commands-cheatsheet.md → Commands worth remembering
+├── concepts/
+│   └── concepts-glossary.md → Terms defined in my own words
+├── assets/screenshots/   → Sanitized visuals
+├── templates/            → Reusable daily log template
+└── OPSEC-CHECKLIST.md    → Pre-publish sanitization checklist
+```
+
+---
+
+## 📅 Daily Log Index
+
+### Week 1 — Foundation
+| Day | Date | Topic | Log |
+|---|---|---|---|
+| Day 01 | — | — | *Coming soon* |
+| Day 02 | — | — | *Coming soon* |
+| Day 03 | — | — | *Coming soon* |
+| Day 04 | — | — | *Coming soon* |
+| Day 05 | — | — | *Coming soon* |
+
+### Week 2 — Technical Depth
+| Day | Date | Topic | Log |
+|---|---|---|---|
+| Day 06 | — | — | *Coming soon* |
+| Day 07 | — | — | *Coming soon* |
+| Day 08 | — | — | *Coming soon* |
+| Day 09 | — | — | *Coming soon* |
+| Day 10 | — | — | *Coming soon* |
+
+### Week 3 — Pattern Recognition
+| Day | Date | Topic | Log |
+|---|---|---|---|
+| Day 11 | — | — | *Coming soon* |
+| Day 12 | — | — | *Coming soon* |
+| Day 13 | — | — | *Coming soon* |
+| Day 14 | — | — | *Coming soon* |
+| Day 15 | — | — | *Coming soon* |
+
+### Week 4 — Grand Finale
+| Day | Date | Topic | Log |
+|---|---|---|---|
+| Day 16 | — | — | *Coming soon* |
+| Day 17 | — | — | *Coming soon* |
+| Day 18 | — | — | *Coming soon* |
+| Day 19 | — | — | *Coming soon* |
+| Day 20 | — | — | *Coming soon* |
+
+---
+
+## 📊 Weekly Summaries
+
+| Week | Theme | Summary |
+|---|---|---|
+| [Week 1](weekly-summaries/week-01-summary.md) | Foundation | *Coming soon* |
+| [Week 2](weekly-summaries/week-02-summary.md) | Technical Depth | *Coming soon* |
+| [Week 3](weekly-summaries/week-03-summary.md) | Pattern Recognition | *Coming soon* |
+| [Week 4](weekly-summaries/week-04-summary.md) | Grand Finale | *Coming soon* |
+
+---
+
+## 🧰 Quick Links
+
+| Resource | Description |
+|---|---|
+| [🧰 Tools Index](tools-and-cheatsheets/tools-index.md) | Every tool used, categorized with descriptions |
+| [📝 Commands Cheatsheet](tools-and-cheatsheets/commands-cheatsheet.md) | Commands worth remembering, organized by domain |
+| [📖 Concepts Glossary](concepts/concepts-glossary.md) | Terms defined in my own words |
+| [✅ OPSEC Checklist](OPSEC-CHECKLIST.md) | Pre-publish sanitization reference |
+| [📋 Daily Template](templates/daily-log-template.md) | Reusable log template |
+
+---
+
+<!-- 
+=============================================================
+GRAND FINALE — Fill this in during Days 23-30
+=============================================================
+-->
+
+## 🏆 Grand Finale — 30 Days Inside a Cybersecurity Internship
+
+> *What I Built, What I Broke, and What I'd Do Differently*
+
+<!-- Uncomment and fill in the sections below during the final week -->
+
+<!--
+### 📊 By the Numbers
+- **X** daily logs published
+- **Y** tools actively used
+- **Z** challenges documented and resolved
+- **N** commits to this repository
+
+### 📅 Week-by-Week Breakdown
+**Week 1 — Foundation:** [One paragraph]
+**Week 2 — Technical Depth:** [One paragraph]
+**Week 3 — Pattern Recognition:** [One paragraph]
+**Week 4 — Grand Finale:** [One paragraph]
+
+### 🧠 The 5 Most Important Things I Learned
+1. [Insight, not a task]
+2. [Insight, not a task]
+3. [Insight, not a task]
+4. [Insight, not a task]
+5. [Insight, not a task]
+
+### 📈 Before vs. After: My Skill Map
+| Skill Area | Before Internship | After Internship |
+|---|---|---|
+| Network Analysis | — | — |
+| Linux Administration | — | — |
+| Web Security | — | — |
+| Incident Response | — | — |
+| Security Mindset | — | — |
+
+### 😰 The Hardest Day
+[Tell the story of your worst day — counterintuitively your most compelling content]
+
+### 🔄 What I'd Do Differently If I Started Again
+[Demonstrates self-awareness and reflection]
+
+### 🚀 What's Next
+[Post-internship roadmap: certifications, projects, CTFs]
+-->
+
+*This section will be completed during the final week of the internship.*
+
+---
+
+## 🔗 Connect
+
+- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- **Hashnode:** [Your Blog](https://your-blog.hashnode.dev)
+- **Twitter/X:** [@your-handle](https://twitter.com/your-handle)
+
+---
+
+## 📜 License
+
+This repository is shared for educational purposes. All content is sanitized following strict OPSEC guidelines — no real company names, IP addresses, hostnames, or vulnerability details are included.
+
+---
+
+<p align="center">
+  <i>Consistency is the proof. Consistency is the portfolio.</i>
+</p>
