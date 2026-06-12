@@ -41,4 +41,4 @@ Terms and concepts defined during the internship. Definitions should be written 
 
 ---
 
-*Target: 30+ terms by Day 30 — approximately one new concept per day.*
+*Target: 24+ terms by Day 24 — approximately one new concept per day.*

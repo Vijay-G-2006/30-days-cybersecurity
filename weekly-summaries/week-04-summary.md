@@ -1,6 +1,6 @@
 # Week 4 Summary — Grand Finale
 
-> *Days 16-20 | [Date Range]*
+> *Days 19-24 | [Date Range]*
 
 ---
 
@@ -35,7 +35,7 @@
 ---
 
 ## Final Skill Map
-| Skill Area | Day 1 | Day 20 |
+| Skill Area | Day 1 | Day 24 |
 |---|---|---|
 | — | — | — |
 

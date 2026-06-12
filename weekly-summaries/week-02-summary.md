@@ -1,6 +1,6 @@
 # Week 2 Summary — Technical Depth
 
-> *Days 6-10 | [Date Range]*
+> *Days 7-12 | [Date Range]*
 
 ---
 

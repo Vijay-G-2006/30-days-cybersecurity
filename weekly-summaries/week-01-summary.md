@@ -1,6 +1,6 @@
 # Week 1 Summary — Foundation Week
 
-> *Days 1-5 | [Date Range]*
+> *Days 1-6 | [Date Range]*
 
 ---
 

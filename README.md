@@ -1,6 +1,6 @@
 # 30 Days of Cybersecurity — Internship Log
 
-[![Daily Logs](https://img.shields.io/badge/Daily_Logs-20_Days-blue?style=for-the-badge)](#daily-log-index)
+[![Daily Logs](https://img.shields.io/badge/Daily_Logs-24_Days-blue?style=for-the-badge)](#daily-log-index)
 [![Tools Used](https://img.shields.io/badge/Tools-Tracked-orange?style=for-the-badge)](tools-and-cheatsheets/tools-index.md)
 [![OPSEC](https://img.shields.io/badge/OPSEC-Sanitized-green?style=for-the-badge)](OPSEC-CHECKLIST.md)
 
@@ -54,33 +54,37 @@ This is a **daily internship documentation repository** — a version-controlled
 | Day 03 | — | — | *Coming soon* |
 | Day 04 | — | — | *Coming soon* |
 | Day 05 | — | — | *Coming soon* |
+| Day 06 | — | — | *Coming soon* |
 
 ### Week 2 — Technical Depth
 | Day | Date | Topic | Log |
 |---|---|---|---|
-| Day 06 | — | — | *Coming soon* |
 | Day 07 | — | — | *Coming soon* |
 | Day 08 | — | — | *Coming soon* |
 | Day 09 | — | — | *Coming soon* |
 | Day 10 | — | — | *Coming soon* |
+| Day 11 | — | — | *Coming soon* |
+| Day 12 | — | — | *Coming soon* |
 
 ### Week 3 — Pattern Recognition
 | Day | Date | Topic | Log |
 |---|---|---|---|
-| Day 11 | — | — | *Coming soon* |
-| Day 12 | — | — | *Coming soon* |
 | Day 13 | — | — | *Coming soon* |
 | Day 14 | — | — | *Coming soon* |
 | Day 15 | — | — | *Coming soon* |
+| Day 16 | — | — | *Coming soon* |
+| Day 17 | — | — | *Coming soon* |
+| Day 18 | — | — | *Coming soon* |
 
 ### Week 4 — Grand Finale
 | Day | Date | Topic | Log |
 |---|---|---|---|
-| Day 16 | — | — | *Coming soon* |
-| Day 17 | — | — | *Coming soon* |
-| Day 18 | — | — | *Coming soon* |
 | Day 19 | — | — | *Coming soon* |
 | Day 20 | — | — | *Coming soon* |
+| Day 21 | — | — | *Coming soon* |
+| Day 22 | — | — | *Coming soon* |
+| Day 23 | — | — | *Coming soon* |
+| Day 24 | — | — | *Coming soon* |
 
 ---
 
@@ -109,7 +113,7 @@ This is a **daily internship documentation repository** — a version-controlled
 
 <!-- 
 =============================================================
-GRAND FINALE — Fill this in during Days 23-30
+GRAND FINALE — Fill this in during Days 19-24
 =============================================================
 -->
 

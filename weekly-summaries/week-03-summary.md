@@ -1,6 +1,6 @@
 # Week 3 Summary — Pattern Recognition
 
-> *Days 11-15 | [Date Range]*
+> *Days 13-18 | [Date Range]*
 
 ---
 
