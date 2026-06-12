@@ -52,7 +52,7 @@ This is a **daily internship documentation repository** — a version-controlled
 | Day 01 | 2026-06-08 | Linux Fundamentals, TCP/IP Model, IP Addresses | [Log](daily-logs/week-01/day-01_2026-06-08.md) |
 | Day 02 | 2026-06-09 | Linux Filesystem Hierarchy, Directory Structure | [Log](daily-logs/week-01/day-02_2026-06-09.md) |
 | Day 03 | 2026-06-10 | Network Scanning with Nmap and Packet-Level Analysis with Wireshark | [Log](daily-logs/week-01/day-03_2026-06-10.md) |
-| Day 04 | — | — | *Coming soon* |
+| Day 04 | 2026-06-11 | User and Group Management, Automation, and Bash Efficiency | [Log](daily-logs/week-01/day-04_2026-06-11.md) |
 | Day 05 | — | — | *Coming soon* |
 | Day 06 | — | — | *Coming soon* |
 

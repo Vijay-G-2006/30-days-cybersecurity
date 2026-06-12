@@ -22,6 +22,14 @@ A running inventory of every tool encountered during the internship, organized b
 | 10 | cat | Linux / System | Day 02 | Concatenates and displays file contents to standard output |
 | 11 | Nmap | Network Analysis | Day 03 | Network discovery and security auditing utility |
 | 12 | Wireshark | Network Analysis | Day 03 | Network protocol analyzer for packet capture and inspection |
+| 13 | useradd | Linux / System | Day 04 | Command to create a new user or update default new user information |
+| 14 | userdel | Linux / System | Day 04 | Command to delete a user account and related files |
+| 15 | groupadd | Linux / System | Day 04 | Command to create a new group |
+| 16 | groupdel | Linux / System | Day 04 | Command to delete a group |
+| 17 | usermod | Linux / System | Day 04 | Command to modify a user account |
+| 18 | su | Linux / System | Day 04 | Command to run a shell with substitute user and group IDs |
+| 19 | head | Linux / System | Day 04 | Output the first part of files |
+| 20 | tail | Linux / System | Day 04 | Output the last part of files |
 
 ---
 
@@ -46,6 +54,14 @@ A running inventory of every tool encountered during the internship, organized b
 | stat | File metadata inspection | `stat /path/to/file` |
 | find | Filesystem search and filtering | `find /path -name "*.conf"` |
 | cat | File content display | `cat /etc/passwd` |
+| useradd | User creation | `useradd -m <user>` |
+| userdel | User deletion | `userdel -r <user>` |
+| groupadd | Group creation | `groupadd <group>` |
+| groupdel | Group deletion | `groupdel <group>` |
+| usermod | User modification | `usermod -aG <group> <user>` |
+| su | Substitute user identity | `su <user>` |
+| head | View start of file | `head -n 5 <file>` |
+| tail | View end of file | `tail -n 5 <file>` |
 
 ### Web Application Security
 | Tool | Purpose | Key Command |

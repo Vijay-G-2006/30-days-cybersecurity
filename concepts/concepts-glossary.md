@@ -27,6 +27,9 @@ Terms and concepts defined during the internship. Definitions should be written 
 | 15 | TCP Connect Scan (-sT) | Network Security | A port scan that completes the full TCP three-way handshake. Slower and more easily logged by target systems, but does not require raw socket access (root privileges). | Day 03 |
 | 16 | UDP Scan (-sU) | Network Security | A scan targeting connectionless UDP ports. Relies on ICMP Port Unreachable messages to determine if a port is closed, making it generally slower and less definitive than TCP scanning. | Day 03 |
 | 17 | Nmap Scripting Engine (NSE) | Network Security | A feature of Nmap that allows users to write and execute Lua scripts for advanced network discovery, vulnerability detection, and exploitation during a scan. | Day 03 |
+| 18 | UID / GID | Linux / Operating Systems | User Identifier and Group Identifier. The numerical values Linux actually uses to track identity and permissions. UIDs under 1000 are reserved for system and service accounts, while 1000+ are for human users. | Day 04 |
+| 19 | /usr/local/bin | Linux / Operating Systems | The standard directory for locally compiled binaries and custom administrative scripts. Placing scripts here allows them to be executed as system commands without conflicting with package-managed software in /usr/bin. | Day 04 |
+| 20 | History Expansion (!!) | Linux / Operating Systems | A bash shell feature that substitutes the last executed command into the current prompt. Extremely useful for re-running a command that failed due to missing privileges (e.g., `sudo !!`). | Day 04 |
 
 ---
 
@@ -52,6 +55,9 @@ Terms and concepts defined during the internship. Definitions should be written 
 - **/proc** — Virtual filesystem exposing live process and kernel data (Day 02)
 - **/dev** — Device files enabling file-based hardware interaction (Day 02)
 - **Sticky Bit** — Permission flag preventing unauthorized file deletion in shared directories (Day 02)
+- **UID / GID** — Numerical identifiers for users and groups (Day 04)
+- **/usr/local/bin** — Standard path for custom scripts and local binaries (Day 04)
+- **History Expansion (!!)** — Bash feature to recall the previous command (Day 04)
 
 ### Web Security
 - *Add concepts as encountered*

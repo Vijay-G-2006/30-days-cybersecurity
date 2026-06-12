@@ -82,6 +82,21 @@ file /path/to/file          # Identify file type by content
 stat /path/to/file          # Detailed metadata (permissions, inode, timestamps)
 find /etc -name "*.conf"    # Search for files by name pattern
 cat /etc/passwd             # Display file contents
+
+# User and group management (Day 04)
+sudo useradd -m testuser    # Add user and create home directory
+sudo useradd -M svc_account # Add user without home directory
+sudo userdel -r testuser    # Delete user, home directory, and mail spool
+sudo groupadd developers    # Create a new group
+sudo groupdel developers    # Delete a group
+sudo usermod -aG sudo user  # Append user to a secondary group
+sudo usermod -s /bin/bash user # Set default shell for a user
+sudo su testuser            # Switch to another user context
+
+# File inspection and bash efficiency (Day 04)
+head -n 5 /etc/passwd       # View the first 5 lines of a file
+tail -n 5 /etc/passwd       # View the last 5 lines of a file
+sudo !!                     # Execute the previous command with sudo
 ```
 
 ---
