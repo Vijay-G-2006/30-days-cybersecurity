@@ -18,6 +18,11 @@ Terms and concepts defined during the internship. Definitions should be written 
 | 6 | NAT (Network Address Translation) | Network Security | A technique used by routers to map private internal IP addresses to a single public IP address, allowing multiple devices to share one public IP for internet access. | Day 01 |
 | 7 | Loopback Address | Network Security | The reserved IP address 127.0.0.1 that refers to the local machine itself. Traffic sent to this address never leaves the network interface; commonly used for testing local services. | Day 01 |
 | 8 | File Permissions (Linux) | Linux / Operating Systems | A three-tier access control system (owner, group, others) with three permission types (read=4, write=2, execute=1) expressed in octal notation. Controls who can read, modify, or execute a file. | Day 01 |
+| 9 | Filesystem Hierarchy Standard (FHS) | Linux / Operating Systems | The formal specification that defines the directory structure of Linux systems — which directories exist at the top level, what each contains, and why the separation exists. Maintained by the Linux Foundation. | Day 02 |
+| 10 | /etc (Configuration Directory) | Linux / Operating Systems | The central directory for all system-wide configuration files. Contains passwd, shadow, fstab, sudoers, and service-specific configs. Misconfiguration here is a common vector for privilege escalation. | Day 02 |
+| 11 | /proc (Virtual Filesystem) | Linux / Operating Systems | A kernel-generated virtual filesystem that exposes real-time process information and system statistics as readable files. Does not exist on disk; each running process gets a numbered directory under /proc. | Day 02 |
+| 12 | /dev (Device Files) | Linux / Operating Systems | A directory of special files representing hardware devices and virtual interfaces. Linux treats devices as files, enabling standard read/write operations on hardware. Includes /dev/null, /dev/urandom, and disk device nodes. | Day 02 |
+| 13 | Sticky Bit | Linux / Operating Systems | A special permission flag (represented as 't' in the permission string) applied to directories like /tmp. It prevents users from deleting files they do not own, even in world-writable directories. | Day 02 |
 
 ---
 
@@ -34,6 +39,11 @@ Terms and concepts defined during the internship. Definitions should be written 
 
 ### Linux / Operating Systems
 - **File Permissions** — Octal-based access control for files and directories (Day 01)
+- **Filesystem Hierarchy Standard (FHS)** — Formal specification defining Linux directory structure and purpose (Day 02)
+- **/etc** — Central system configuration directory; security-critical (Day 02)
+- **/proc** — Virtual filesystem exposing live process and kernel data (Day 02)
+- **/dev** — Device files enabling file-based hardware interaction (Day 02)
+- **Sticky Bit** — Permission flag preventing unauthorized file deletion in shared directories (Day 02)
 
 ### Web Security
 - *Add concepts as encountered*

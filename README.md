@@ -50,7 +50,7 @@ This is a **daily internship documentation repository** — a version-controlled
 | Day | Date | Topic | Log |
 |---|---|---|---|
 | Day 01 | 2026-06-08 | Linux Fundamentals, TCP/IP Model, IP Addresses | [Log](daily-logs/week-01/day-01_2026-06-08.md) |
-| Day 02 | — | — | *Coming soon* |
+| Day 02 | 2026-06-09 | Linux Filesystem Hierarchy, Directory Structure | [Log](daily-logs/week-01/day-02_2026-06-09.md) |
 | Day 03 | — | — | *Coming soon* |
 | Day 04 | — | — | *Coming soon* |
 | Day 05 | — | — | *Coming soon* |

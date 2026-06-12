@@ -66,6 +66,14 @@ systemctl status <service>  # Check systemd service status
 uname -a                    # Kernel and OS details
 df -h                       # Disk usage (human-readable)
 free -h                     # Memory usage (human-readable)
+
+# Filesystem inspection (Day 02)
+tree -L 1 --dirsfirst /     # Top-level directory overview
+tree -L 2 --dirsfirst /etc  # Two-level view of a specific directory
+file /path/to/file          # Identify file type by content
+stat /path/to/file          # Detailed metadata (permissions, inode, timestamps)
+find /etc -name "*.conf"    # Search for files by name pattern
+cat /etc/passwd             # Display file contents
 ```
 
 ---
