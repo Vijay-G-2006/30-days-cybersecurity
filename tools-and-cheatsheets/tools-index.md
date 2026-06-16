@@ -34,6 +34,7 @@ A running inventory of every tool encountered during the internship, organized b
 | 22 | hashid | Cryptography | Day 05 | Python script to identify the different types of hashes |
 | 23 | hash-identifier | Cryptography | Day 05 | Software to identify the different types of hashes used to encrypt data |
 | 24 | hashcat | Cryptography | Day 05 | Advanced password recovery utility supporting multiple attack modes |
+| 25 | Python (hashlib) | Cryptography | Day 06 | Built-in module for hash generation and custom brute-force scripts |
 
 ---
 
@@ -79,6 +80,7 @@ A running inventory of every tool encountered during the internship, organized b
 | hashid | Hash identification | `hashid <hash>` |
 | hash-identifier | Hash identification | `hash-identifier` |
 | hashcat | Password recovery | `hashcat -m 0 -a 3 <hash> ?a?a?a?a?a` |
+| Python (hashlib) | Custom hash automation | `import hashlib; hashlib.sha512(b"text").hexdigest()` |
 
 ### Defensive / Monitoring
 | Tool | Purpose | Key Command |

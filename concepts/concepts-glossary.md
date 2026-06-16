@@ -35,6 +35,8 @@ Terms and concepts defined during the internship. Definitions should be written 
 | 23 | Mask Attack (Hashcat -a 3) | Cryptography | A highly optimized password cracking technique where candidates are generated based on a known or assumed pattern (e.g., lowercase followed by 4 digits), vastly reducing the keyspace compared to blind brute-forcing. | Day 05 |
 | 24 | Dictionary Attack (Hashcat -a 0) | Cryptography | A password cracking technique that hashes every word in a provided wordlist (like rockyou.txt) and compares the output against the target hashes. | Day 05 |
 | 25 | Combinator Attack (Hashcat -a 1) | Cryptography | A password cracking technique that combines words from two different dictionaries by appending each word from the second list to each word in the first list. | Day 05 |
+| 26 | Python hashlib | Cryptography | A built-in Python library that provides a common interface to many secure hash and message digest algorithms. | Day 06 |
+| 27 | Brute-Force Attack (Hashing) | Cryptography | The process of guessing the original input of a hash by generating many potential inputs, hashing them, and comparing the result to the target hash. | Day 06 |
 
 ---
 
@@ -73,6 +75,8 @@ Terms and concepts defined during the internship. Definitions should be written 
 - **Mask Attack (-a 3)** — Optimized brute-force attack using character pattern masks (Day 05)
 - **Dictionary Attack (-a 0)** — Password recovery using a predefined list of words (Day 05)
 - **Combinator Attack (-a 1)** — Password recovery combining words from two dictionaries (Day 05)
+- **Python hashlib** — Built-in Python library for cryptographic hashing (Day 06)
+- **Brute-Force Attack (Hashing)** — Guessing an input by continuously hashing and comparing outputs (Day 06)
 
 ### Defensive Security (Blue Team)
 - *Add concepts as encountered*
