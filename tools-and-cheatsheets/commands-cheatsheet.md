@@ -158,6 +158,14 @@ hashcat -m 0 -a 1 <hashes.txt> dict1.txt dict2.txt # Combinator attack
 hashcat -m 0 --show <hash>           # Show already cracked hash from potfile
 ```
 
+```python
+# Python hashlib — Custom hash automation (Day 06)
+import hashlib
+hashlib.sha512("input".encode('utf-8')).hexdigest()  # Generate SHA-512 hash
+hashlib.sha256("input".encode('utf-8')).hexdigest()  # Generate SHA-256 hash
+hashlib.md5("input".encode('utf-8')).hexdigest()     # Generate MD5 hash
+```
+
 ---
 
 *Add the Day number next to each command for cross-referencing with daily logs.*

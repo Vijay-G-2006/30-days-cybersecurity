@@ -54,7 +54,7 @@ This is a **daily internship documentation repository** — a version-controlled
 | Day 03 | 2026-06-10 | Network Scanning with Nmap and Packet-Level Analysis with Wireshark | [Log](daily-logs/week-01/day-03_2026-06-10.md) |
 | Day 04 | 2026-06-11 | User and Group Management, Automation, and Bash Efficiency | [Log](daily-logs/week-01/day-04_2026-06-11.md) |
 | Day 05 | 2026-06-12 | Cryptographic Hashing and Password Cracking with Hashcat | [Log](daily-logs/week-01/day-05_2026-06-12.md) |
-| Day 06 | — | — | *Coming soon* |
+| Day 06 | 2026-06-13 | Hashing Automation with Python (hashlib) | [Log](daily-logs/week-01/day-06_2026-06-13.md) |
 
 ### Week 2 — Technical Depth
 | Day | Date | Topic | Log |
@@ -92,7 +92,7 @@ This is a **daily internship documentation repository** — a version-controlled
 
 | Week | Theme | Summary |
 |---|---|---|
-| [Week 1](weekly-summaries/week-01-summary.md) | Foundation | *Coming soon* |
+| [Week 1](weekly-summaries/week-01-summary.md) | Foundation | Linux, Networking, Nmap, Cryptography, Python |
 | [Week 2](weekly-summaries/week-02-summary.md) | Technical Depth | *Coming soon* |
 | [Week 3](weekly-summaries/week-03-summary.md) | Pattern Recognition | *Coming soon* |
 | [Week 4](weekly-summaries/week-04-summary.md) | Grand Finale | *Coming soon* |
