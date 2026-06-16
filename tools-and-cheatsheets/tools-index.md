@@ -35,6 +35,9 @@ A running inventory of every tool encountered during the internship, organized b
 | 23 | hash-identifier | Cryptography | Day 05 | Software to identify the different types of hashes used to encrypt data |
 | 24 | hashcat | Cryptography | Day 05 | Advanced password recovery utility supporting multiple attack modes |
 | 25 | Python (hashlib) | Cryptography | Day 06 | Built-in module for hash generation and custom brute-force scripts |
+| 26 | Burp Suite (Community Edition) | Web Application Security | Day 07 | Intercepting proxy and web application security testing platform |
+| 27 | Metasploitable 2 | Lab / Vulnerable Target | Day 07 | Deliberately vulnerable Linux VM for practicing penetration testing |
+| 28 | VirtualBox | Lab / Virtualization | Day 07 | Hypervisor for running isolated virtual machine lab environments |
 
 ---
 
@@ -71,7 +74,7 @@ A running inventory of every tool encountered during the internship, organized b
 ### Web Application Security
 | Tool | Purpose | Key Command |
 |---|---|---|
-| — | — | `—` |
+| Burp Suite | Intercepting proxy, Repeater, Intruder | `burpsuite` (GUI — configure browser proxy to `127.0.0.1:8080`) |
 
 ### Cryptography & Password Recovery
 | Tool | Purpose | Key Command |
@@ -90,7 +93,8 @@ A running inventory of every tool encountered during the internship, organized b
 ### Offensive / Pentesting
 | Tool | Purpose | Key Command |
 |---|---|---|
-| — | — | `—` |
+| Metasploitable 2 | Deliberately vulnerable target VM | Default login: `msfadmin / msfadmin` |
+| VirtualBox | VM hypervisor for lab environments | `VBoxManage startvm <vmname>` |
 
 ---
 

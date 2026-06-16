@@ -37,6 +37,13 @@ Terms and concepts defined during the internship. Definitions should be written 
 | 25 | Combinator Attack (Hashcat -a 1) | Cryptography | A password cracking technique that combines words from two different dictionaries by appending each word from the second list to each word in the first list. | Day 05 |
 | 26 | Python hashlib | Cryptography | A built-in Python library that provides a common interface to many secure hash and message digest algorithms. | Day 06 |
 | 27 | Brute-Force Attack (Hashing) | Cryptography | The process of guessing the original input of a hash by generating many potential inputs, hashing them, and comparing the result to the target hash. | Day 06 |
+| 28 | Intercepting Proxy | Web Security | A tool that sits between a browser and a web server, capturing all HTTP/HTTPS traffic for inspection, modification, and replay before forwarding it to the destination. | Day 07 |
+| 29 | Burp Repeater | Web Security | A Burp Suite module that allows manual modification and re-sending of individual HTTP requests to observe how the server responds to different inputs. | Day 07 |
+| 30 | Burp Intruder | Web Security | A Burp Suite module for automated, customizable attacks that iterates through payload lists against defined insertion points in HTTP requests. | Day 07 |
+| 31 | Intruder Attack Types (Sniper, Battering Ram, Pitchfork, Cluster Bomb) | Web Security | Four distinct payload iteration strategies in Burp Intruder, ranging from single-position sequential testing (Sniper) to exhaustive Cartesian-product combinations across multiple positions (Cluster Bomb). | Day 07 |
+| 32 | Response Size Analysis | Web Security | The technique of identifying successful attack payloads by comparing HTTP response body lengths — the outlier size among uniform results typically indicates a different server-side outcome (e.g., a successful login vs. a failed one). | Day 07 |
+| 33 | Deliberately Vulnerable Application | Web Security | A purpose-built, intentionally insecure application or VM (like DVWA or Metasploitable 2) used as a legal, safe target for practicing penetration testing techniques in an isolated lab environment. | Day 07 |
+| 34 | HTTP Header Information Leakage | Web Security | The exposure of sensitive server-side details (web server version, language runtime, OS) through HTTP response headers like Server, X-Powered-By, which aids attackers in targeted vulnerability research. | Day 07 |
 
 ---
 
@@ -67,7 +74,13 @@ Terms and concepts defined during the internship. Definitions should be written 
 - **History Expansion (!!)** — Bash feature to recall the previous command (Day 04)
 
 ### Web Security
-- *Add concepts as encountered*
+- **Intercepting Proxy** — Tool capturing HTTP/HTTPS traffic between browser and server for analysis (Day 07)
+- **Burp Repeater** — Module for manually modifying and resending HTTP requests (Day 07)
+- **Burp Intruder** — Module for automated payload-based attacks against HTTP parameters (Day 07)
+- **Intruder Attack Types** — Sniper, Battering Ram, Pitchfork, Cluster Bomb strategies for payload iteration (Day 07)
+- **Response Size Analysis** — Identifying successful payloads by spotting response length anomalies (Day 07)
+- **Deliberately Vulnerable Application** — Purpose-built insecure targets for legal security practice (Day 07)
+- **HTTP Header Information Leakage** — Sensitive server details exposed via response headers (Day 07)
 
 ### Cryptography
 - **Cryptographic Hashing** — One-way deterministic function for generating fixed-size digests (Day 05)

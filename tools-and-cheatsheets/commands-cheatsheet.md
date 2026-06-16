@@ -104,13 +104,36 @@ sudo !!                     # Execute the previous command with sudo
 ## Web Application Security
 
 ```bash
-# curl / HTTP inspection
-# [Add commands as used]
+# Burp Suite — Setup and proxy configuration (Day 07)
+# 1. Launch Burp Suite (listens on 127.0.0.1:8080 by default)
+burpsuite &
+
+# 2. Configure Firefox: Settings → Network → Manual Proxy → 127.0.0.1:8080
+# 3. Install Burp CA cert: browse to http://burp → download cacert.der → import into Firefox
+
+# Burp Suite — Core workflow (Day 07)
+# Proxy → Intercept is on   → catch and modify live requests before forwarding
+# Proxy → HTTP history      → review all past requests/responses (even with intercept off)
+# Right-click request → Send to Repeater  → manually modify and resend
+# Right-click request → Send to Intruder  → set payload positions with § markers
+
+# Burp Intruder — Attack types (Day 07)
+# Sniper:        Single payload list, one position at a time
+# Battering Ram:  Single payload list, same value in all positions simultaneously
+# Pitchfork:     One list per position, iterated in parallel (pair 1, pair 2, ...)
+# Cluster Bomb:  One list per position, every combination (Cartesian product)
+
+# Burp Intruder — Results analysis (Day 07)
+# Sort by "Length" column → the response size that differs from the majority = likely success
+# Sort by "Status" column → look for 302 redirects among 200 responses
 ```
 
 ```bash
-# Burp Suite / OWASP ZAP
-# [Add commands as used]
+# Metasploitable 2 — Lab target setup (Day 07)
+# Import .vmdk into VirtualBox → set network to Host-Only → boot
+# Default credentials: msfadmin / msfadmin
+# Access web apps: http://<metasploitable-ip>/
+# DVWA login: http://<metasploitable-ip>/dvwa/login.php (admin / password)
 ```
 
 ---

@@ -59,7 +59,7 @@ This is a **daily internship documentation repository** — a version-controlled
 ### Week 2 — Technical Depth
 | Day | Date | Topic | Log |
 |---|---|---|---|
-| Day 07 | — | — | *Coming soon* |
+| Day 07 | 2026-06-15 | Web Application Interception and Attack Automation with Burp Suite | [Log](daily-logs/week-02/day-07_2026-06-15.md) |
 | Day 08 | — | — | *Coming soon* |
 | Day 09 | — | — | *Coming soon* |
 | Day 10 | — | — | *Coming soon* |
