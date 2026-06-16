@@ -38,6 +38,7 @@ A running inventory of every tool encountered during the internship, organized b
 | 26 | Burp Suite (Community Edition) | Web Application Security | Day 07 | Intercepting proxy and web application security testing platform |
 | 27 | Metasploitable 2 | Lab / Vulnerable Target | Day 07 | Deliberately vulnerable Linux VM for practicing penetration testing |
 | 28 | VirtualBox | Lab / Virtualization | Day 07 | Hypervisor for running isolated virtual machine lab environments |
+| 29 | tshark | Network Analysis | Day 08 | CLI-based Wireshark for headless packet capture and scripted analysis |
 
 ---
 
@@ -51,7 +52,8 @@ A running inventory of every tool encountered during the internship, organized b
 | ping | Network reachability testing | `ping -c 4 <target>` |
 | curl | HTTP request and header inspection | `curl -I <url>` |
 | Nmap | Network discovery and port scanning | `nmap -sV -sC <target>` |
-| Wireshark | Packet capture and analysis | `wireshark` |
+| Wireshark | Packet capture, filtering, and deep protocol analysis | `wireshark` (GUI) |
+| tshark | CLI packet capture and scripted analysis | `tshark -i eth0 -Y "http"` |
 
 ### Linux / System
 | Tool | Purpose | Key Command |

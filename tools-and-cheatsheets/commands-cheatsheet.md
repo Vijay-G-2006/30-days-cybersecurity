@@ -38,8 +38,42 @@ sudo nmap -A 192.0.2.1       # Aggressive scan (OS, version, scripts, traceroute
 ```
 
 ```bash
-# tcpdump
-# [Add commands as used]
+# Wireshark — Display filters (Day 08)
+# (Typed into the filter bar after capture has started)
+ip.addr == 192.0.2.10                     # All traffic to/from an IP
+ip.src == 192.0.2.10                      # Only traffic FROM this IP
+ip.dst == 192.0.2.10                      # Only traffic TO this IP
+tcp.port == 80                            # TCP traffic on port 80
+tcp.dstport == 443                        # TCP destined for port 443
+udp.port == 53                            # DNS traffic
+http.request.method == "POST"             # HTTP POST requests (login forms)
+tcp.flags.syn == 1 && tcp.flags.ack == 1  # SYN-ACK → reveals OPEN ports
+tcp.flags.syn == 1 && tcp.flags.ack == 0  # SYN only → connection attempts
+dns.qry.name contains "example"           # DNS queries for a domain
+http.server                               # Packets with Server header (version info)
+ftp.request.command == "USER" || ftp.request.command == "PASS"  # FTP credentials
+tcp.stream eq 5                           # Follow a specific TCP conversation
+```
+
+```bash
+# Wireshark — Capture filters / BPF syntax (Day 08)
+# (Set BEFORE capture starts — non-matching packets are permanently discarded)
+host 192.0.2.10                           # Traffic to/from specific IP
+port 80                                   # Traffic on port 80
+net 192.0.2.0/24                          # Traffic on a subnet
+tcp                                       # TCP only
+not arp                                   # Exclude ARP
+host 192.0.2.10 and port 443              # Combined filter
+```
+
+```bash
+# tshark — CLI packet analysis (Day 08)
+tshark -i eth0 -c 100                     # Capture 100 packets
+tshark -i eth0 -Y "http"                  # Capture with display filter
+tshark -r capture.pcapng -Y "ip.addr == 192.0.2.10"  # Read file + filter
+tshark -r capture.pcapng -Y "tcp.flags.syn==1 && tcp.flags.ack==1" \
+  -T fields -e ip.src -e tcp.srcport      # Extract open ports (like nmap)
+tshark -r capture.pcapng -q -z io,phs     # Protocol hierarchy statistics
 ```
 
 ---

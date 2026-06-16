@@ -44,6 +44,12 @@ Terms and concepts defined during the internship. Definitions should be written 
 | 32 | Response Size Analysis | Web Security | The technique of identifying successful attack payloads by comparing HTTP response body lengths — the outlier size among uniform results typically indicates a different server-side outcome (e.g., a successful login vs. a failed one). | Day 07 |
 | 33 | Deliberately Vulnerable Application | Web Security | A purpose-built, intentionally insecure application or VM (like DVWA or Metasploitable 2) used as a legal, safe target for practicing penetration testing techniques in an isolated lab environment. | Day 07 |
 | 34 | HTTP Header Information Leakage | Web Security | The exposure of sensitive server-side details (web server version, language runtime, OS) through HTTP response headers like Server, X-Powered-By, which aids attackers in targeted vulnerability research. | Day 07 |
+| 35 | Display Filter (Wireshark) | Network Security | A post-capture filter using Wireshark's own syntax (e.g., `ip.addr`, `tcp.port`) that controls which already-captured packets are shown in the UI without discarding any data. | Day 08 |
+| 36 | Capture Filter (BPF) | Network Security | A pre-capture filter using Berkeley Packet Filter syntax (e.g., `host`, `port`) that determines which packets Wireshark records; non-matching packets are permanently discarded. | Day 08 |
+| 37 | TCP Stream Reassembly | Network Security | The process of reconstructing a complete client-server conversation from individual TCP packets, enabling full-text viewing of HTTP exchanges, FTP sessions, and Telnet commands. | Day 08 |
+| 38 | Cleartext Credential Exposure | Network Security | The vulnerability of unencrypted protocols (HTTP, FTP, Telnet) where usernames, passwords, and session tokens are transmitted in plaintext and can be captured by any observer on the network. | Day 08 |
+| 39 | Passive OS Fingerprinting | Network Security | Identifying a remote host's operating system by analyzing TCP/IP stack characteristics (TTL, window size, TCP options) visible in captured packets, without sending any active probes. | Day 08 |
+| 40 | Network Anomaly Detection | Network Security | Using statistical analysis of captured traffic (protocol distribution, conversation volume, I/O patterns) to identify suspicious behavior such as port scans, ARP spoofing, or data exfiltration. | Day 08 |
 
 ---
 
@@ -61,6 +67,12 @@ Terms and concepts defined during the internship. Definitions should be written 
 - **TCP Connect Scan (-sT)** — Full-handshake TCP port scanning technique (Day 03)
 - **UDP Scan (-sU)** — Connectionless port scanning technique (Day 03)
 - **Nmap Scripting Engine (NSE)** — Lua-based script execution framework for Nmap (Day 03)
+- **Display Filter (Wireshark)** — Post-capture filter for isolating specific traffic in the UI (Day 08)
+- **Capture Filter (BPF)** — Pre-capture filter that permanently limits which packets are recorded (Day 08)
+- **TCP Stream Reassembly** — Reconstructing full conversations from individual TCP packets (Day 08)
+- **Cleartext Credential Exposure** — Passwords visible in unencrypted protocol traffic (Day 08)
+- **Passive OS Fingerprinting** — Identifying OS via TTL, window size, and TCP options (Day 08)
+- **Network Anomaly Detection** — Statistical traffic analysis to detect scans, spoofing, and exfiltration (Day 08)
 
 ### Linux / Operating Systems
 - **File Permissions** — Octal-based access control for files and directories (Day 01)

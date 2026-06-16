@@ -60,7 +60,7 @@ This is a **daily internship documentation repository** — a version-controlled
 | Day | Date | Topic | Log |
 |---|---|---|---|
 | Day 07 | 2026-06-15 | Web Application Interception and Attack Automation with Burp Suite | [Log](daily-logs/week-02/day-07_2026-06-15.md) |
-| Day 08 | — | — | *Coming soon* |
+| Day 08 | 2026-06-16 | Deep Packet Analysis and Network Forensics with Wireshark | [Log](daily-logs/week-02/day-08_2026-06-16.md) |
 | Day 09 | — | — | *Coming soon* |
 | Day 10 | — | — | *Coming soon* |
 | Day 11 | — | — | *Coming soon* |
