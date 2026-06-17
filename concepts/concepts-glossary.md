@@ -50,6 +50,13 @@ Terms and concepts defined during the internship. Definitions should be written 
 | 38 | Cleartext Credential Exposure | Network Security | The vulnerability of unencrypted protocols (HTTP, FTP, Telnet) where usernames, passwords, and session tokens are transmitted in plaintext and can be captured by any observer on the network. | Day 08 |
 | 39 | Passive OS Fingerprinting | Network Security | Identifying a remote host's operating system by analyzing TCP/IP stack characteristics (TTL, window size, TCP options) visible in captured packets, without sending any active probes. | Day 08 |
 | 40 | Network Anomaly Detection | Network Security | Using statistical analysis of captured traffic (protocol distribution, conversation volume, I/O patterns) to identify suspicious behavior such as port scans, ARP spoofing, or data exfiltration. | Day 08 |
+| 41 | Phishing | Social Engineering | A social engineering attack that impersonates a trusted entity (via email, website, SMS, or voice) to trick victims into revealing sensitive information such as credentials, financial data, or personal details — targeting human psychology rather than technical vulnerabilities. | Day 09 |
+| 42 | Spear Phishing | Social Engineering | A targeted phishing attack directed at a specific individual or organization, using personalized information gathered via OSINT (name, role, company context) to dramatically increase credibility and success rate. | Day 09 |
+| 43 | Credential Harvesting | Social Engineering | The technique of capturing usernames, passwords, and other authentication data by serving a cloned login page that submits entered data to the attacker's server before redirecting the victim to the legitimate site. | Day 09 |
+| 44 | Clone Phishing | Social Engineering | A phishing technique where a legitimate, previously delivered email is duplicated with its links or attachments replaced with malicious versions, exploiting the victim's familiarity with the original communication. | Day 09 |
+| 45 | Social Engineering Kill Chain | Social Engineering | The complete lifecycle of a social engineering attack: Reconnaissance (OSINT) → Weaponization (page cloning, pretext crafting) → Delivery (email/SMS) → Exploitation (credential capture) → Post-Exploitation (account access) → Covering Tracks. | Day 09 |
+| 46 | DMARC (Domain-based Message Authentication) | Email Security | An email authentication protocol that combines SPF and DKIM to verify sender identity and instructs receiving mail servers on how to handle messages that fail authentication checks — the primary defense against email domain spoofing. | Day 09 |
+| 47 | Phishing-Resistant Authentication (FIDO2/WebAuthn) | Authentication | An authentication mechanism where cryptographic keys are bound to the legitimate domain, making it fundamentally impossible to phish — even if the victim visits a cloned page, the key will not authenticate on the wrong origin. | Day 09 |
 
 ---
 
@@ -105,6 +112,15 @@ Terms and concepts defined during the internship. Definitions should be written 
 
 ### Defensive Security (Blue Team)
 - *Add concepts as encountered*
+
+### Social Engineering
+- **Phishing** — Social engineering attack impersonating trusted entities to harvest sensitive information (Day 09)
+- **Spear Phishing** — Targeted, personalized phishing using OSINT-gathered context (Day 09)
+- **Credential Harvesting** — Capturing authentication data via cloned login pages (Day 09)
+- **Clone Phishing** — Re-sending legitimate emails with malicious replacements (Day 09)
+- **Social Engineering Kill Chain** — Full attack lifecycle from OSINT to credential capture to post-exploitation (Day 09)
+- **DMARC** — Email authentication combining SPF and DKIM to prevent domain spoofing (Day 09)
+- **Phishing-Resistant Authentication (FIDO2/WebAuthn)** — Domain-bound cryptographic authentication immune to phishing (Day 09)
 
 ### Offensive Security (Red Team)
 - *Add concepts as encountered*

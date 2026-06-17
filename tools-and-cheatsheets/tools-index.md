@@ -39,6 +39,9 @@ A running inventory of every tool encountered during the internship, organized b
 | 27 | Metasploitable 2 | Lab / Vulnerable Target | Day 07 | Deliberately vulnerable Linux VM for practicing penetration testing |
 | 28 | VirtualBox | Lab / Virtualization | Day 07 | Hypervisor for running isolated virtual machine lab environments |
 | 29 | tshark | Network Analysis | Day 08 | CLI-based Wireshark for headless packet capture and scripted analysis |
+| 30 | Zphisher | Social Engineering | Day 09 | Automated phishing page generator with pre-built templates for 30+ popular platforms |
+| 31 | SET (Social Engineering Toolkit) | Social Engineering | Day 09 | Advanced social engineering framework for live website cloning and credential harvesting |
+| 32 | Ngrok | Networking / Tunneling | Day 09 | Secure tunnel for exposing local servers to the internet via public URLs |
 
 ---
 
@@ -91,6 +94,13 @@ A running inventory of every tool encountered during the internship, organized b
 | Tool | Purpose | Key Command |
 |---|---|---|
 | — | — | `—` |
+
+### Social Engineering
+| Tool | Purpose | Key Command |
+|---|---|---|
+| Zphisher | Automated phishing page generation with 30+ templates | `bash zphisher.sh` |
+| SET (Social Engineering Toolkit) | Live website cloning and credential harvesting | `sudo setoolkit` → 1 → 2 → 3 → 2 |
+| Ngrok | Expose local phishing server to the internet | `ngrok http 80` |
 
 ### Offensive / Pentesting
 | Tool | Purpose | Key Command |

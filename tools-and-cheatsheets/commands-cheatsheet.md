@@ -186,6 +186,38 @@ burpsuite &
 
 ---
 
+## Social Engineering / Phishing
+
+```bash
+# Zphisher — Automated phishing page generator (Day 09)
+git clone https://github.com/htr-tech/zphisher.git  # Clone the repository
+chmod +x zphisher.sh                                 # Make executable
+bash zphisher.sh                                     # Launch Zphisher
+# Select template (e.g., 03 for Google) → set port → phishing page served
+# Credentials captured in auth/usernames.dat
+```
+
+```bash
+# SET (Social Engineering Toolkit) — Credential Harvester (Day 09)
+sudo setoolkit                                        # Launch SET (requires root)
+# Navigate: 1 → Social-Engineering Attacks
+#           2 → Website Attack Vectors
+#           3 → Credential Harvester Attack Method
+#           2 → Site Cloner
+# Enter attacker IP → Enter URL to clone → Harvester starts on port 80
+# Credentials saved to /root/.set/reports/
+```
+
+```bash
+# Ngrok — Tunnel local server to the internet (Day 09)
+ngrok config add-authtoken <YOUR_AUTH_TOKEN>           # One-time authentication
+ngrok http 80                                         # Expose port 80 publicly
+ngrok http 8080                                       # Expose port 8080 publicly
+# Provides a public https://xxxx.ngrok-free.app URL forwarding to localhost
+```
+
+---
+
 ## Offensive / Red Team
 
 ```bash
