@@ -62,7 +62,7 @@ This is a **daily internship documentation repository** — a version-controlled
 | Day 07 | 2026-06-15 | Web Application Interception and Attack Automation with Burp Suite | [Log](daily-logs/week-02/day-07_2026-06-15.md) |
 | Day 08 | 2026-06-16 | Deep Packet Analysis and Network Forensics with Wireshark | [Log](daily-logs/week-02/day-08_2026-06-16.md) |
 | Day 09 | 2026-06-17 | Phishing Attacks: Types, Tools, and Credential Harvesting | [Log](daily-logs/week-02/day-09_2026-06-17.md) |
-| Day 10 | 2026-06-17 | Denial of Service (DoS) and Distributed Denial of Service (DDoS) | [Log](daily-logs/week-02/day-10_2026-06-17.md) |
+| Day 10 | 2026-06-18 | Denial of Service (DoS) and Distributed Denial of Service (DDoS) | [Log](daily-logs/week-02/day-10_2026-06-18.md) |
 | Day 11 | — | — | *Coming soon* |
 | Day 12 | — | — | *Coming soon* |
 
