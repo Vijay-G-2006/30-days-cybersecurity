@@ -4,16 +4,16 @@ Welcome to the interconnected vault. This index serves as your entry point to ex
 
 ## Primary Entry Points
 
-### 📚 [Daily Logs by Domain & Week](daily-logs/INDEX.md)
+### [Daily Logs by Domain & Week](daily-logs/INDEX.md)
 Start here to follow the chronological journey or explore by topic. Each day is linked to the concepts and tools used.
 
-### 🧠 [Concepts Organized by Domain](concepts/INDEX.md)
+### [Concepts Organized by Domain](concepts/INDEX.md)
 Jump directly to a cybersecurity domain to explore related concepts, terms, and their relationships.
 
-### 🛠️ [Tools Organized by Domain](tools-and-cheatsheets/TOOLS-BY-DOMAIN.md)
+### [Tools Organized by Domain](tools-and-cheatsheets/TOOLS-BY-DOMAIN.md)
 Find tools and commands organized by how they're used, not alphabetically. Map tools to the domains where they're applied.
 
-### 📖 [Project Overview & Repository Guide](README.md)
+### [Project Overview & Repository Guide](README.md)
 Understand the structure, OPSEC approach, and purpose of this documentation.
 
 ---
