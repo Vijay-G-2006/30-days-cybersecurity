@@ -122,6 +122,16 @@ Terms and concepts defined during the internship. Definitions should be written 
 - **Aggregate Function** — SQL function (COUNT, SUM, MAX, MIN, AVG) operating on multiple rows to produce a single result (Day 13)
 - **Subquery** — A query nested inside another query, allowing complex multi-step filtering and aggregation (Day 13)
 - **Transaction** — A sequence of operations that either all succeed (COMMIT) or all fail (ROLLBACK) (Day 13)
+- **Authentication Bypass** — SQL injection payload that circumvents login using logic like `admin' OR '1'='1` (Day 14)
+- **Time-based Blind SQL Injection** — Exploiting database by measuring response delays; SLEEP() causes slowdown if payload executes (Day 14)
+- **Error-based SQL Injection** — Triggering database errors that reveal structural information; extractvalue() exposes version/data in error messages (Day 14)
+- **UNION-based SQL Injection** — Appending SELECT statements to extract data when results directly displayed; column count must match original query (Day 14)
+- **Cookie-based SQL Injection** — Manipulating session cookies containing unsanitized user data passed to SQL queries (Day 14)
+- **Stacked Queries** — Executing multiple SQL statements in single request; allows INSERT, UPDATE, DELETE attacks on vulnerable databases (Day 14)
+- **Second-order SQL Injection** — Payload stored in database then executed later when data retrieved; bridging to persistent attacks (Day 14)
+- **sqlmap** — Automated framework detecting and exploiting SQL injection vulnerabilities across UNION, error-based, and time-based techniques (Day 14)
+- **WAF Bypass** — SQL injection techniques that evade Web Application Firewall detection using encoding (space2comment, between) or obfuscation (Day 14)
+- **Hash Extraction + Cracking Workflow** — Chaining SQL injection (extract hashes) → hash-id (identify algorithm) → hashcat/hydra (crack) → elevated access (Day 14)
 
 ### Linux / Operating Systems
 - **File Permissions** — Octal-based access control for files and directories (Day 01)

