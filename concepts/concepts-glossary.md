@@ -107,6 +107,22 @@ Terms and concepts defined during the internship. Definitions should be written 
 - **Service Authentication Module** — A tool-specific plugin for handling login protocols like SSH, FTP, or HTTP (Day 12)
 - **Failure Pattern Matching** — Detecting unsuccessful login attempts by looking for specific response text or status codes (Day 12)
 
+### Database Security / SQL
+- **Relational Database** — Data organized into tables with rows and columns, linked by primary and foreign keys (Day 13)
+- **Structured Query Language (SQL)** — Standard language for querying and managing relational databases using SELECT, INSERT, UPDATE, DELETE (Day 13)
+- **Primary Key** — Unique identifier for each row in a table; no two rows can have the same primary key value (Day 13)
+- **Foreign Key** — A reference to a primary key in another table, establishing relationships between tables (Day 13)
+- **Schema** — The structure of a database, including table names, columns, data types, and constraints (Day 13)
+- **CRUD Operations** — Create, Read, Update, Delete — the four fundamental database operations (Day 13)
+- **JOIN** — SQL operation combining rows from multiple tables based on a related column (Day 13)
+- **ACID Properties** — Atomicity, Consistency, Isolation, Durability — guarantees provided by transactions (Day 13)
+- **Prepared Statement** — SQL query with placeholders for user input, preventing SQL injection by separating code from data (Day 13)
+- **SQL Injection** — Attack inserting malicious SQL code into user input fields to bypass authentication or extract data (Day 13)
+- **Index** — Database structure accelerating SELECT queries by allowing faster data retrieval, but slowing INSERT/UPDATE/DELETE (Day 13)
+- **Aggregate Function** — SQL function (COUNT, SUM, MAX, MIN, AVG) operating on multiple rows to produce a single result (Day 13)
+- **Subquery** — A query nested inside another query, allowing complex multi-step filtering and aggregation (Day 13)
+- **Transaction** — A sequence of operations that either all succeed (COMMIT) or all fail (ROLLBACK) (Day 13)
+
 ### Linux / Operating Systems
 - **File Permissions** — Octal-based access control for files and directories (Day 01)
 - **Filesystem Hierarchy Standard (FHS)** — Formal specification defining Linux directory structure and purpose (Day 02)

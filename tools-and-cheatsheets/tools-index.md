@@ -53,6 +53,8 @@ A running inventory of every tool encountered during the internship, organized b
 | 41 | Medusa | Offensive Security | Day 12 | Parallel remote login brute-force tool |
 | 42 | Ncrack | Offensive Security | Day 12 | High-speed network authentication cracker |
 | 43 | Patator | Offensive Security | Day 12 | Flexible brute-force automation tool with custom success matching |
+| 44 | MySQL (Server) | Database / Backend | Day 13 | Relational database server version 5.0.51a on Metasploitable 2 |
+| 45 | mysql (Client) | Database / Backend | Day 13 | Terminal-based MySQL client for query execution and schema inspection |
 ---
 
 ## By Category

@@ -69,7 +69,7 @@ This is a **daily internship documentation repository** — a version-controlled
 ### Week 3 — Pattern Recognition
 | Day | Date | Topic | Log |
 |---|---|---|---|
-| Day 13 | — | — | *Coming soon* |
+| Day 13 | 2026-06-22 | SQL and MySQL Fundamentals: From Terminal to Advanced Operations | [Log](daily-logs/week-03/day-13_2026-06-22.md) |
 | Day 14 | — | — | *Coming soon* |
 | Day 15 | — | — | *Coming soon* |
 | Day 16 | — | — | *Coming soon* |

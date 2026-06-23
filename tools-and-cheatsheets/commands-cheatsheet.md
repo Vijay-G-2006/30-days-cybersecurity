@@ -267,6 +267,71 @@ ncrack -p ssh,ftp 192.0.2.10
 patator ssh_login host=192.0.2.10 user=FILE0 password=FILE1 0=~/wordlists/usernames.txt 1=~/wordlists/common-passwords.txt
 ```
 
+## Database Administration / SQL
+
+```bash
+# MySQL — Connection and basic operations (Day 13)
+mysql -h 192.0.2.10 -u root -p                    # Connect to remote MySQL server
+mysql -u root                                      # Connect locally (on Metasploitable VM)
+```
+
+```sql
+-- MySQL — Database and table management (Day 13)
+SHOW DATABASES;                                   -- List all databases
+USE database_name;                                -- Select a database
+SHOW TABLES;                                      -- List tables in current database
+DESCRIBE table_name;                              -- Show table structure
+SHOW CREATE TABLE table_name\G                    -- Show table creation statement
+
+-- SELECT queries — retrieving data (Day 13)
+SELECT * FROM users;                              -- Select all rows and columns
+SELECT username, email FROM users;                -- Select specific columns
+SELECT * FROM users WHERE user_id = 1;           -- Filter with WHERE clause
+SELECT COUNT(*) FROM users;                       -- Count total rows
+SELECT username FROM users WHERE username LIKE 'admin%';
+SELECT * FROM users ORDER BY username ASC;       -- Order results
+SELECT * FROM users LIMIT 5;                      -- Limit result set
+
+-- INSERT queries — adding data (Day 13)
+INSERT INTO users (username, password, email) VALUES ('testuser', 'pass', 'test@example.com');
+INSERT INTO users (username, password) VALUES ('user2', 'pass2'), ('user3', 'pass3');
+
+-- UPDATE queries — modifying data (Day 13)
+UPDATE users SET password = 'newpass' WHERE username = 'testuser';
+UPDATE users SET password = 'reset', email = 'new@example.com' WHERE user_id = 5;
+
+-- DELETE queries — removing data (Day 13)
+DELETE FROM users WHERE username = 'testuser';
+DELETE FROM users WHERE user_id = 10;
+
+-- JOINs — combining multiple tables (Day 13)
+SELECT users.username, guestbook.comment FROM users INNER JOIN guestbook ON users.user_id = guestbook.user_id;
+SELECT users.username, messages.text FROM users LEFT JOIN messages ON users.user_id = messages.user_id;
+
+-- GROUP BY and aggregation (Day 13)
+SELECT username, COUNT(*) as message_count FROM users LEFT JOIN messages ON users.user_id = messages.user_id GROUP BY username;
+SELECT COUNT(*), MAX(user_id), MIN(user_id) FROM users;
+
+-- Transactions — ACID operations (Day 13)
+START TRANSACTION;
+INSERT INTO users (username, password) VALUES ('trans_user', 'pass');
+COMMIT;                                           -- Or: ROLLBACK;
+
+-- User and permission management (Day 13)
+CREATE USER 'webapp'@'192.0.2.1' IDENTIFIED BY 'password';
+GRANT SELECT, INSERT, UPDATE ON database_name.* TO 'webapp'@'192.0.2.1';
+SHOW GRANTS FOR 'webapp'@'192.0.2.1';
+REVOKE INSERT ON database_name.* FROM 'webapp'@'192.0.2.1';
+DROP USER 'webapp'@'192.0.2.1';
+
+-- Indexes — improving query performance (Day 13)
+CREATE INDEX idx_username ON users(username);
+CREATE INDEX idx_user_email ON users(username, email);
+SHOW INDEX FROM users;
+DROP INDEX idx_username ON users;
+EXPLAIN SELECT * FROM users WHERE username = 'admin';
+```
+
 ## Offensive / Red Team
 
 ```bash
