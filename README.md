@@ -93,7 +93,7 @@ This is a **daily internship documentation repository** — a version-controlled
 | Week | Theme | Summary |
 |---|---|---|
 | [Week 1](weekly-summaries/week-01-summary.md) | Foundation | Linux, Networking, Nmap, Cryptography, Python |
-| [Week 2](weekly-summaries/week-02-summary.md) | Technical Depth | *Coming soon* |
+| [Week 2](weekly-summaries/week-02-summary.md) | Technical Depth | Practical offensive and defensive tooling: Burp, Wireshark, phishing, DoS, Metasploit, Hydra |
 | [Week 3](weekly-summaries/week-03-summary.md) | Pattern Recognition | *Coming soon* |
 | [Week 4](weekly-summaries/week-04-summary.md) | Grand Finale | *Coming soon* |
 
