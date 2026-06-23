@@ -63,7 +63,7 @@ This is a **daily internship documentation repository** — a version-controlled
 | Day 08 | 2026-06-16 | Deep Packet Analysis and Network Forensics with Wireshark | [Log](daily-logs/week-02/day-08_2026-06-16.md) |
 | Day 09 | 2026-06-17 | Phishing Attacks: Types, Tools, and Credential Harvesting | [Log](daily-logs/week-02/day-09_2026-06-17.md) |
 | Day 10 | 2026-06-18 | Denial of Service (DoS) and Distributed Denial of Service (DDoS) | [Log](daily-logs/week-02/day-10_2026-06-18.md) |
-| Day 11 | — | — | *Coming soon* |
+| Day 11 | 2026-06-19 | Learning Metasploit: Framework, modules, and commands | [Log](daily-logs/week-02/day-11_2026-06-19.md) |
 | Day 12 | — | — | *Coming soon* |
 
 ### Week 3 — Pattern Recognition

