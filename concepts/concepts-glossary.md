@@ -57,6 +57,13 @@ Terms and concepts defined during the internship. Definitions should be written 
 | 45 | Social Engineering Kill Chain | Social Engineering | The complete lifecycle of a social engineering attack: Reconnaissance (OSINT) → Weaponization (page cloning, pretext crafting) → Delivery (email/SMS) → Exploitation (credential capture) → Post-Exploitation (account access) → Covering Tracks. | Day 09 |
 | 46 | DMARC (Domain-based Message Authentication) | Email Security | An email authentication protocol that combines SPF and DKIM to verify sender identity and instructs receiving mail servers on how to handle messages that fail authentication checks — the primary defense against email domain spoofing. | Day 09 |
 | 47 | Phishing-Resistant Authentication (FIDO2/WebAuthn) | Authentication | An authentication mechanism where cryptographic keys are bound to the legitimate domain, making it fundamentally impossible to phish — even if the victim visits a cloned page, the key will not authenticate on the wrong origin. | Day 09 |
+| 48 | Denial of Service (DoS) | Network Security | An attack that makes a system or service unavailable by overwhelming it with traffic or consuming key resources like CPU, memory, or sockets. | Day 10 |
+| 49 | Distributed Denial of Service (DDoS) | Network Security | A DoS attack launched from many distributed sources to increase traffic volume and evade simple IP-based blocking. | Day 10 |
+| 50 | SYN Flood | Network Security | A transport-layer DoS attack that sends many TCP SYN packets without completing the handshake, exhausting the target's SYN queue and connection state. | Day 10 |
+| 51 | UDP Flood | Network Security | A network-layer DoS attack that sends large volumes of UDP packets to a target port, forcing the host to process or drop them and potentially consume network resources. | Day 10 |
+| 52 | Application-layer DoS | Network Security | A DoS attack that targets web server resources by opening many valid-looking HTTP connections or by sending expensive requests to exhaust application-level threads and memory. | Day 10 |
+| 53 | SYN Cookies | Network Security | A TCP/IP mitigation mechanism that encodes connection state into the SYN-ACK sequence number so the server does not allocate memory for half-open connections until the handshake is completed. | Day 10 |
+| 54 | Rate Limiting | Network Security | A defensive control that restricts the number of accepted connections or packets per time unit to protect services from traffic spikes and flooding attacks. | Day 10 |
 
 ---
 
@@ -80,6 +87,13 @@ Terms and concepts defined during the internship. Definitions should be written 
 - **Cleartext Credential Exposure** — Passwords visible in unencrypted protocol traffic (Day 08)
 - **Passive OS Fingerprinting** — Identifying OS via TTL, window size, and TCP options (Day 08)
 - **Network Anomaly Detection** — Statistical traffic analysis to detect scans, spoofing, and exfiltration (Day 08)
+- **Denial of Service (DoS)** — Attack that overwhelms a system by exhausting resources or bandwidth (Day 10)
+- **Distributed Denial of Service (DDoS)** — DoS attack executed from many sources to increase scale and evade simple blocking (Day 10)
+- **SYN Flood** — Transport-layer DoS attack that opens too many TCP handshake attempts and leaves connections incomplete (Day 10)
+- **UDP Flood** — Network-layer DoS attack that sends a high volume of UDP packets to overwhelm the target (Day 10)
+- **Application-layer DoS** — Layer 7 attack that consumes web server resources with many slow or expensive requests (Day 10)
+- **SYN Cookies** — Kernel protection mechanism that avoids allocating state for half-open TCP connections (Day 10)
+- **Rate Limiting** — Defensive control that caps the number of connections or packets allowed in a given time window (Day 10)
 
 ### Linux / Operating Systems
 - **File Permissions** — Octal-based access control for files and directories (Day 01)

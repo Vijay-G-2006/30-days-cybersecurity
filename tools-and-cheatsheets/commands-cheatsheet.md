@@ -64,6 +64,18 @@ net 192.0.2.0/24                          # Traffic on a subnet
 tcp                                       # TCP only
 not arp                                   # Exclude ARP
 host 192.0.2.10 and port 443              # Combined filter
+
+# hping3 — DoS testing and packet generation (Day 10)
+sudo hping3 --flood --rand-source -S -p 8080 127.0.0.1  # SYN flood simulation
+sudo hping3 --flood --rand-source --udp -p 8080 127.0.0.1  # UDP flood simulation
+
+# iptables — Rate limiting and SYN flood mitigation (Day 10)
+sudo iptables -A INPUT -p tcp --syn --dport 8080 -m limit --limit 10/s --limit-burst 20 -j ACCEPT
+sudo iptables -A INPUT -p tcp --syn --dport 8080 -j DROP
+
+# sysctl — Kernel tuning for networking (Day 10)
+sudo sysctl -w net.ipv4.tcp_syncookies=1
+sudo sysctl -w net.ipv4.tcp_max_syn_backlog=256
 ```
 
 ```bash

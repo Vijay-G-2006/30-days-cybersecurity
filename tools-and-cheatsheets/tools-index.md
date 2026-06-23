@@ -41,8 +41,10 @@ A running inventory of every tool encountered during the internship, organized b
 | 29 | tshark | Network Analysis | Day 08 | CLI-based Wireshark for headless packet capture and scripted analysis |
 | 30 | Zphisher | Social Engineering | Day 09 | Automated phishing page generator with pre-built templates for 30+ popular platforms |
 | 31 | SET (Social Engineering Toolkit) | Social Engineering | Day 09 | Advanced social engineering framework for live website cloning and credential harvesting |
-| 32 | Ngrok | Networking / Tunneling | Day 09 | Secure tunnel for exposing local servers to the internet via public URLs |
-
+| 32 | Ngrok | Networking / Tunneling | Day 09 | Secure tunnel for exposing local servers to the internet via public URLs || 33 | hping3 | Network Analysis | Day 10 | Packet crafter for custom TCP/UDP floods, SYN flood testing, and traffic generation |
+| 34 | Slowloris | Network Analysis | Day 10 | Application-layer DoS tool that holds HTTP connections open to exhaust server resources |
+| 35 | iptables | Linux / System | Day 10 | Netfilter firewall utility for packet filtering, rate limiting, and SYN flood mitigation |
+| 36 | sysctl | Linux / System | Day 10 | Kernel configuration utility for tuning TCP/IP stack behavior and mitigation settings |
 ---
 
 ## By Category
@@ -56,8 +58,8 @@ A running inventory of every tool encountered during the internship, organized b
 | curl | HTTP request and header inspection | `curl -I <url>` |
 | Nmap | Network discovery and port scanning | `nmap -sV -sC <target>` |
 | Wireshark | Packet capture, filtering, and deep protocol analysis | `wireshark` (GUI) |
-| tshark | CLI packet capture and scripted analysis | `tshark -i eth0 -Y "http"` |
-
+| tshark | CLI packet capture and scripted analysis | `tshark -i eth0 -Y "http"` || hping3 | Custom packet generation and DoS simulation | `sudo hping3 --flood --rand-source -S -p 8080 127.0.0.1` |
+| Slowloris | HTTP connection exhaustion using slow header injection | `slowloris 127.0.0.1:8080 -s 100 -z 10` |
 ### Linux / System
 | Tool | Purpose | Key Command |
 |---|---|---|
@@ -75,6 +77,8 @@ A running inventory of every tool encountered during the internship, organized b
 | su | Substitute user identity | `su <user>` |
 | head | View start of file | `head -n 5 <file>` |
 | tail | View end of file | `tail -n 5 <file>` |
+| iptables | Packet filtering, NAT, and rate limiting | `sudo iptables -A INPUT -p tcp --syn --dport 8080 -m limit --limit 10/s --limit-burst 20 -j ACCEPT` |
+| sysctl | Kernel parameter tuning for networking and performance | `sudo sysctl -w net.ipv4.tcp_syncookies=1` |
 
 ### Web Application Security
 | Tool | Purpose | Key Command |
