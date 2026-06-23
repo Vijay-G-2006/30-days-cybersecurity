@@ -64,7 +64,7 @@ This is a **daily internship documentation repository** — a version-controlled
 | Day 09 | 2026-06-17 | Phishing Attacks: Types, Tools, and Credential Harvesting | [Log](daily-logs/week-02/day-09_2026-06-17.md) |
 | Day 10 | 2026-06-18 | Denial of Service (DoS) and Distributed Denial of Service (DDoS) | [Log](daily-logs/week-02/day-10_2026-06-18.md) |
 | Day 11 | 2026-06-19 | Learning Metasploit: Framework, modules, and commands | [Log](daily-logs/week-02/day-11_2026-06-19.md) |
-| Day 12 | — | — | *Coming soon* |
+| Day 12 | 2026-06-20 | Hydra and authentication brute-force tools | [Log](daily-logs/week-02/day-12_2026-06-20.md) |
 
 ### Week 3 — Pattern Recognition
 | Day | Date | Topic | Log |

