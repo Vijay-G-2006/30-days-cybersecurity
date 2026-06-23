@@ -6,36 +6,36 @@ Concepts for testing and securing web applications, including HTTP interception,
 
 Tools and techniques for inspecting and modifying web traffic.
 
-- [[concepts-glossary#Intercepting Proxy]] — Tools like Burp Suite that capture HTTP/HTTPS traffic
+- [Intercepting Proxy](../concepts-glossary.md#intercepting-proxy) — Tools like Burp Suite that capture HTTP/HTTPS traffic
 - Allows modification of requests/responses before delivery
 
 ## Burp Suite Modules
 
 Manual and automated web security testing capabilities.
 
-- [[concepts-glossary#Burp Repeater]] — Manual request modification and resending
-- [[concepts-glossary#Burp Intruder]] — Automated payload fuzzing with multiple attack modes
-- [[concepts-glossary#Intruder Attack Types (Sniper, Battering Ram, Pitchfork, Cluster Bomb)]] — Payload iteration strategies
+- [Burp Repeater](../concepts-glossary.md#burp-repeater) — Manual request modification and resending
+- [Burp Intruder](../concepts-glossary.md#burp-intruder) — Automated payload fuzzing with multiple attack modes
+- [Intruder Attack Types (Sniper, Battering Ram, Pitchfork, Cluster Bomb)](../concepts-glossary.md#intruder-attack-types-sniper-battering-ram-pitchfork-cluster-bomb) — Payload iteration strategies
 
 ## Testing Techniques
 
 Methodologies for discovering vulnerabilities.
 
-- [[concepts-glossary#Response Size Analysis]] — Identifying successful payloads by comparing HTTP response lengths
+- [Response Size Analysis](../concepts-glossary.md#response-size-analysis) — Identifying successful payloads by comparing HTTP response lengths
 - Useful for brute-forcing authentication and finding information disclosure
 
 ## Information Disclosure
 
 How servers leak sensitive information.
 
-- [[concepts-glossary#HTTP Header Information Leakage]] — Server version, language runtime, OS exposed via headers
+- [HTTP Header Information Leakage](../concepts-glossary.md#http-header-information-leakage) — Server version, language runtime, OS exposed via headers
 - Reduces attacker reconnaissance effort
 
 ## Vulnerable Application Testing
 
 Safe environments for practicing attacks.
 
-- [[concepts-glossary#Deliberately Vulnerable Application]] — DVWA, Metasploitable 2, intentionally insecure for labs
+- [Deliberately Vulnerable Application](../concepts-glossary.md#deliberately-vulnerable-application) — DVWA, Metasploitable 2, intentionally insecure for labs
 
 ## SQL Injection
 
@@ -55,8 +55,8 @@ Database-level attacks through HTTP parameters.
 
 ## See Also
 
-- [[network-security]] — HTTP and protocol fundamentals
-- [[cryptography]] — HTTPS and TLS
-- [[social-engineering]] — Credential harvesting through web interfaces
-- [[offensive-security]] — Exploitation and post-exploitation
-- [[concepts/INDEX]] — All domains
+- [Network Security](network-security.md) — HTTP and protocol fundamentals
+- [Cryptography](cryptography.md) — HTTPS and TLS
+- [Social Engineering](social-engineering.md) — Credential harvesting through web interfaces
+- [Offensive Security](offensive-security.md) — Exploitation and post-exploitation
+- [All domains](../INDEX.md) — All domains

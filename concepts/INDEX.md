@@ -4,27 +4,27 @@ Central hub for navigating concepts organized by domain.
 
 ## Domains
 
-### [[domains/network-security|Network Security]]
+### [Network Security](domains/network-security.md)
 TCP/IP model, port scanning, traffic analysis, DoS attacks, network protocols
 - **Day 1, 3, 8, 10**
 
-### [[domains/linux-systems|Linux & Operating Systems]]
+### [Linux & Operating Systems](domains/linux-systems.md)
 Filesystem, permissions, user management, system administration
 - **Day 1, 2, 4**
 
-### [[domains/cryptography|Cryptography & Password Security]]
+### [Cryptography & Password Security](domains/cryptography.md)
 Hashing, password cracking, brute-force attacks, cryptographic fundamentals
 - **Day 5, 6**
 
-### [[domains/web-security|Web Application Security]]
+### [Web Application Security](domains/web-security.md)
 HTTP interception, Burp Suite, fuzzing, SQL injection, credential harvesting
 - **Day 7, 14**
 
-### [[domains/social-engineering|Social Engineering]]
+### [Social Engineering](domains/social-engineering.md)
 Phishing, credential harvesting, authentication attacks, email spoofing
 - **Day 9**
 
-### [[domains/offensive-security|Offensive Security]]
+### [Offensive Security](domains/offensive-security.md)
 Metasploit, exploitation, post-exploitation, privilege escalation, brute-forcing
 - **Day 11, 12, 13, 14**
 
@@ -32,25 +32,25 @@ Metasploit, exploitation, post-exploitation, privilege escalation, brute-forcing
 
 ## Quick Access by Topic
 
-**Network Fundamentals:** TCP, UDP, IPv4, NAT, routing basics → [[domains/network-security]]
+**Network Fundamentals:** TCP, UDP, IPv4, NAT, routing basics → [Network Security](domains/network-security.md)
 
-**System Administration:** Linux permissions, user management, directory structure → [[domains/linux-systems]]
+**System Administration:** Linux permissions, user management, directory structure → [Linux Systems](domains/linux-systems.md)
 
 **Defensive Concepts:** Rate limiting, SYN cookies, authentication → See domains above
 
-**Offensive Techniques:** Nmap, Metasploit, SQL injection, phishing → [[domains/offensive-security]]
+**Offensive Techniques:** Nmap, Metasploit, SQL injection, phishing → [Offensive Security](domains/offensive-security.md)
 
 ---
 
 ## All Concepts
 
-See [[concepts-glossary]] for the complete alphabetical glossary with definitions.
+See [concepts-glossary.md](concepts-glossary.md) for the complete alphabetical glossary with definitions.
 
 ---
 
 ## See Also
 
-- [[INDEX|← Return to main index]]
-- [[../README|Project README]]
-- [[../tools-and-cheatsheets/tools-index|Tools Index]]
-- [[../tools-and-cheatsheets/TOOLS-BY-DOMAIN|Tools organized by domain]]
+- [← Return to main index](../INDEX.md)
+- [Project README](../README.md)
+- [Tools Index](../tools-and-cheatsheets/tools-index.md)
+- [Tools organized by domain](../tools-and-cheatsheets/TOOLS-BY-DOMAIN.md)

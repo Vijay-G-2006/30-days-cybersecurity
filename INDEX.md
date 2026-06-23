@@ -4,16 +4,16 @@ Welcome to the interconnected vault. This index serves as your entry point to ex
 
 ## Primary Entry Points
 
-### 📚 [[daily-logs/INDEX|Daily Logs by Domain & Week]]
+### 📚 [Daily Logs by Domain & Week](daily-logs/INDEX.md)
 Start here to follow the chronological journey or explore by topic. Each day is linked to the concepts and tools used.
 
-### 🧠 [[concepts/INDEX|Concepts Organized by Domain]]
+### 🧠 [Concepts Organized by Domain](concepts/INDEX.md)
 Jump directly to a cybersecurity domain to explore related concepts, terms, and their relationships.
 
-### 🛠️ [[tools-and-cheatsheets/TOOLS-BY-DOMAIN|Tools Organized by Domain]]
+### 🛠️ [Tools Organized by Domain](tools-and-cheatsheets/TOOLS-BY-DOMAIN.md)
 Find tools and commands organized by how they're used, not alphabetically. Map tools to the domains where they're applied.
 
-### 📖 [[README|Project Overview & Repository Guide]]
+### 📖 [Project Overview & Repository Guide](README.md)
 Understand the structure, OPSEC approach, and purpose of this documentation.
 
 ---
@@ -33,46 +33,46 @@ Understand the structure, OPSEC approach, and purpose of this documentation.
 └─────────────────────────────────────────────────────────────┘
 ```
 
-**Start with a domain:** [[concepts/domains/network-security|Network Security]] • [[concepts/domains/linux-systems|Linux Systems]] • [[concepts/domains/cryptography|Cryptography]] • [[concepts/domains/web-security|Web Security]] • [[concepts/domains/social-engineering|Social Engineering]] • [[concepts/domains/offensive-security|Offensive Security]]
+**Start with a domain:** [Network Security](concepts/domains/network-security.md) • [Linux Systems](concepts/domains/linux-systems.md) • [Cryptography](concepts/domains/cryptography.md) • [Web Security](concepts/domains/web-security.md) • [Social Engineering](concepts/domains/social-engineering.md) • [Offensive Security](concepts/domains/offensive-security.md)
 
 ---
 
 ## Explore by Week
 
-- **[[daily-logs/week-01/|Week 1]]** — Foundation: Linux, TCP/IP, Nmap, Hashing
-- **[[daily-logs/week-02/|Week 2]]** — Web & Traffic: Burp, Wireshark, Phishing, DoS
-- **[[daily-logs/week-03/|Week 3]]** — Database & Exploitation: SQL Injection, Metasploit
-- **[[daily-logs/week-04/|Week 4]]** — Advanced Topics & Synthesis
+- **[Week 1](daily-logs/week-01/)** — Foundation: Linux, TCP/IP, Nmap, Hashing
+- **[Week 2](daily-logs/week-02/)** — Web & Traffic: Burp, Wireshark, Phishing, DoS
+- **[Week 3](daily-logs/week-03/)** — Database & Exploitation: SQL Injection, Metasploit
+- **[Week 4](daily-logs/week-04/)** — Advanced Topics & Synthesis
 
 ---
 
 ## Quick Links to Key Resources
 
 ### Glossaries & References
-- [[concepts/concepts-glossary|Complete Concepts Glossary]] — All 54+ terms defined in own words
-- [[tools-and-cheatsheets/tools-index|Tools Index (alphabetical)]] — Every tool with descriptions and key commands
-- [[tools-and-cheatsheets/commands-cheatsheet|Commands Cheatsheet]] — Frequently used commands organized by category
+- [Complete Concepts Glossary](concepts/concepts-glossary.md) — All 54+ terms defined in own words
+- [Tools Index (alphabetical)](tools-and-cheatsheets/tools-index.md) — Every tool with descriptions and key commands
+- [Commands Cheatsheet](tools-and-cheatsheets/commands-cheatsheet.md) — Frequently used commands organized by category
 
 ### Checklists & Best Practices
-- [[OPSEC-CHECKLIST|OPSEC Sanitization Checklist]] — Pre-GitHub publication review
-- [[concepts/domains/|Domain Guides]] — Deep-dive into each cybersecurity area
+- [OPSEC Sanitization Checklist](OPSEC-CHECKLIST.md) — Pre-GitHub publication review
+- [Domain Guides](concepts/domains/) — Deep-dive into each cybersecurity area
 
 ### Learning Paths
 
 **Beginner → Network Security:**
-1. [[daily-logs/week-01/day-01_2026-06-08|Day 1 — TCP/IP Basics]]
-2. [[concepts/domains/network-security|Explore all network concepts]]
-3. [[daily-logs/week-01/day-03_2026-06-10|Day 3 — Practical Scanning with Nmap]]
+1. [Day 1 — TCP/IP Basics](daily-logs/week-01/day-01_2026-06-08.md)
+2. [Explore all network concepts](concepts/domains/network-security.md)
+3. [Day 3 — Practical Scanning with Nmap](daily-logs/week-01/day-03_2026-06-10.md)
 
 **Beginner → Linux Administration:**
-1. [[daily-logs/week-01/day-01_2026-06-08|Day 1 — Linux CLI Basics]]
-2. [[daily-logs/week-01/day-02_2026-06-09|Day 2 — Filesystem & Permissions]]
-3. [[concepts/domains/linux-systems|Explore all Linux concepts]]
+1. [Day 1 — Linux CLI Basics](daily-logs/week-01/day-01_2026-06-08.md)
+2. [Day 2 — Filesystem & Permissions](daily-logs/week-01/day-02_2026-06-09.md)
+3. [Explore all Linux concepts](concepts/domains/linux-systems.md)
 
 **Intermediate → Offensive Security:**
-1. [[daily-logs/week-02/day-11_2026-06-19|Day 11 — Metasploit Framework]]
-2. [[daily-logs/week-02/day-12_2026-06-20|Day 12 — Brute-Force Techniques]]
-3. [[concepts/domains/offensive-security|Explore exploitation concepts]]
+1. [Day 11 — Metasploit Framework](daily-logs/week-02/day-11_2026-06-19.md)
+2. [Day 12 — Brute-Force Techniques](daily-logs/week-02/day-12_2026-06-20.md)
+3. [Explore exploitation concepts](concepts/domains/offensive-security.md)
 
 ---
 
@@ -96,7 +96,7 @@ All links are intentional—use the graph view to discover patterns and relation
 - **Audience:** Students, practitioners, and those building in public
 - **OPSEC:** All real IPs, hostnames, and company names are sanitized before GitHub publication
 
-See [[README|README.md]] for full details and [[OPSEC-CHECKLIST|OPSEC Checklist]] before pushing to GitHub.
+See [README.md](README.md) for full details and [OPSEC Checklist](OPSEC-CHECKLIST.md) before pushing to GitHub.
 
 ---
 

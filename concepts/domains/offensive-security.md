@@ -6,30 +6,30 @@ Exploitation frameworks, post-exploitation, privilege escalation, and active att
 
 Comprehensive penetration testing and exploitation platform.
 
-- [[concepts-glossary#Metasploit Framework]] — Modular framework with exploits, payloads, and auxiliary modules
-- [[concepts-glossary#msfconsole]] — Primary interactive console for running attacks
-- [[concepts-glossary#msfvenom]] — Payload generation and encoding tool
+- [Metasploit Framework](../concepts-glossary.md#metasploit-framework) — Modular framework with exploits, payloads, and auxiliary modules
+- [msfconsole](#msfconsole) — Primary interactive console for running attacks
+- [msfvenom](#msfvenom) — Payload generation and encoding tool
 
 ## Payload & Session Management
 
 Executing code on compromised systems.
 
-- [[concepts-glossary#Meterpreter]] — Advanced interactive shell with file ops and post-exploitation capabilities
+- [Meterpreter](../concepts-glossary.md#meterpreter) — Advanced interactive shell with file ops and post-exploitation capabilities
 - Provides access for running post modules and lateral movement
 
 ## Metasploit Modules
 
 Different types of modules for different attack phases.
 
-- [[concepts-glossary#Auxiliary Module]] — Scanning, enumeration, brute forcing (non-exploit)
-- [[concepts-glossary#Post Module]] — Credential harvesting, privilege escalation, pivoting after compromise
+- [Auxiliary Module](../concepts-glossary.md#auxiliary-module) — Scanning, enumeration, brute forcing (non-exploit)
+- [Post Module](../concepts-glossary.md#post-module) — Credential harvesting, privilege escalation, pivoting after compromise
 
 ## Credential-Based Attacks
 
 Post-exploitation techniques for gaining further access.
 
-- [[concepts-glossary#Brute-Force Attack (Authentication)]] — Trying username/password combinations
-- Related tools: [[#Hydra]], [[#Medusa]], [[#Ncrack]], [[#Patator]]
+- [Brute-Force Attack (Authentication)](#brute-force-attack-authentication) — Trying username/password combinations
+- Related tools: [Hydra](#hydra), [Medusa](#medusa), [Ncrack](#ncrack), [Patator](#patator)
 
 ## Exploitation Topics
 
@@ -49,9 +49,9 @@ Post-exploitation techniques for gaining further access.
 
 ## See Also
 
-- [[linux-systems]] — OS internals for privilege escalation
-- [[cryptography]] — Credential harvesting and password cracking
-- [[web-security]] — Application-level exploitation
-- [[social-engineering]] — Initial access via phishing
-- [[network-security]] — Network reconnaissance and C2
-- [[concepts/INDEX]] — All domains
+- [Linux Systems](linux-systems.md) — OS internals for privilege escalation
+- [Cryptography](cryptography.md) — Credential harvesting and password cracking
+- [Web Security](web-security.md) — Application-level exploitation
+- [Social Engineering](social-engineering.md) — Initial access via phishing
+- [Network Security](network-security.md) — Network reconnaissance and C2
+- [All domains](../INDEX.md) — All domains

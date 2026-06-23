@@ -6,31 +6,31 @@ Foundational knowledge of Linux system administration, file permissions, process
 
 How Linux organizes data and configuration.
 
-- [[concepts-glossary#Filesystem Hierarchy Standard (FHS)]] — Formal specification of Linux directory structure
-- [[concepts-glossary#/etc (Configuration Directory)]] — System-wide configuration files
-- [[concepts-glossary#/proc (Virtual Filesystem)]] — Real-time process and system statistics
-- [[concepts-glossary#/dev (Device Files)]] — Hardware and virtual device interfaces
-- [[concepts-glossary#/usr/local/bin]] — Directory for custom and locally compiled binaries
+- [Filesystem Hierarchy Standard (FHS)](../concepts-glossary.md#filesystem-hierarchy-standard-fhs) — Formal specification of Linux directory structure
+- [/etc (Configuration Directory)](../concepts-glossary.md#etc-configuration-directory) — System-wide configuration files
+- [/proc (Virtual Filesystem)](../concepts-glossary.md#proc-virtual-filesystem) — Real-time process and system statistics
+- [/dev (Device Files)](../concepts-glossary.md#dev-device-files) — Hardware and virtual device interfaces
+- [/usr/local/bin](../concepts-glossary.md#usrlocalbin) — Directory for custom and locally compiled binaries
 
 ## File Permissions & Access Control
 
 How Linux enforces who can read, write, and execute files.
 
-- [[concepts-glossary#File Permissions (Linux)]] — Owner/group/other + read/write/execute model (octal notation)
-- [[concepts-glossary#Sticky Bit]] — Prevents non-owners from deleting files in shared directories like /tmp
+- [File Permissions (Linux)](../concepts-glossary.md#file-permissions-linux) — Owner/group/other + read/write/execute model (octal notation)
+- [Sticky Bit](../concepts-glossary.md#sticky-bit) — Prevents non-owners from deleting files in shared directories like /tmp
 
 ## User & Group Management
 
 Identity and access control at the OS level.
 
-- [[concepts-glossary#UID / GID]] — Numerical user and group identifiers used internally by the kernel
+- [UID / GID](../concepts-glossary.md#uid--gid) — Numerical user and group identifiers used internally by the kernel
 - Users and groups are the basis for privilege escalation and lateral movement
 
 ## Shell Features & Scripting
 
 Interactive shell and command-line productivity.
 
-- [[concepts-glossary#History Expansion (!!!)]] — Re-run last command with `sudo !!`
+- [History Expansion (!!!)](../concepts-glossary.md#history-expansion-) — Re-run last command with `sudo !!`
 - Bash scripting enables automation of system administration tasks
 
 ## Concepts by Day Introduced
@@ -45,7 +45,7 @@ Interactive shell and command-line productivity.
 
 ## See Also
 
-- [[network-security]] — Network configuration on Linux
-- [[cryptography]] — Hashing and password security in Linux
-- [[offensive-security]] — Post-exploitation and privilege escalation
-- [[concepts/INDEX]] — All domains
+- [Network Security](network-security.md) — Network configuration on Linux
+- [Cryptography](cryptography.md) — Hashing and password security in Linux
+- [Offensive Security](offensive-security.md) — Post-exploitation and privilege escalation
+- [All domains](../INDEX.md) — All domains

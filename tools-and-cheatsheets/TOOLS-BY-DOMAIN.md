@@ -1,6 +1,6 @@
 # Tools Organized by Domain
 
-Tools and commands organized by the cybersecurity domains where they're applied. See [[tools-index]] for the full alphabetical listing.
+Tools and commands organized by the cybersecurity domains where they're applied. See [tools-index.md](tools-index.md) for the full alphabetical listing.
 
 ## Network Security & Analysis
 
@@ -142,7 +142,7 @@ Tools and commands organized by the cybersecurity domains where they're applied.
 
 ## See Also
 
-- [[tools-index|Tools Index (alphabetical)]]
-- [[../concepts/INDEX|Concepts by domain]]
-- [[../daily-logs/INDEX|Daily logs by domain]]
-- [[../INDEX|← Return to main index]]
+- [Tools Index (alphabetical)](tools-index.md)
+- [Concepts by domain](../concepts/INDEX.md)
+- [Daily logs by domain](../daily-logs/INDEX.md)
+- [← Return to main index](../INDEX.md)
